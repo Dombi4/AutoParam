@@ -1,0 +1,194 @@
+{
+  "callCdExt": 10600003,
+  "stageCdExt": "FIRST_ROUTE",
+  "loanRequestVersion": "032",
+  "loanRequest": {
+    "callCdExt": 10600003,
+    "loanRequestExtId": "[customerRequestExtId]",
+    "loanRequestId": "[loanRequestId]",
+    "customerRequestExtId": "[customerRequestExtId]",
+    "extCreateDttm": "2023-03-28T11:08:34.098307",
+    "channelCdExt": "10620009",
+    "creditParameters": [
+      {
+        "productCdExt": "10410068",
+        "creditProgramCdExt": "69",
+        "requestedSum": 600000,
+        "currencyCdExt": "10110118",
+        "loanTypeCdExt": "01",
+        "initialFeeAmt": 0,
+        "purchaseRegionCdExt": "10380019"
+      }
+    ],
+    "employees": [
+      {
+        "lastNm": "Маркин",
+        "firstNm": "Иван",
+        "thirdNm": "Анатольевич",
+        "employeeLoginNm": "KRSNMARKIN.IA",
+        "employeeNum": "70048242",
+        "bisDepartmentCdExt": "10770005",
+        "bankDepartmentCdExt": "3240",
+        "employeeRoleCdExt": "10630002"
+      },
+      {
+        "lastNm": "Анкетный",
+        "firstNm": "сервис",
+        "employeeLoginNm": "websitecar",
+        "employeeNum": "11111318",
+        "bisDepartmentCdExt": "10770001",
+        "bankDepartmentCdExt": "0000",
+        "employeeRoleCdExt": "10630001"
+      }
+    ],
+    "participants": [
+      {
+        "customerFormId": "7c3947ff-2fba-459d-95da-ac8a65c489d7",
+        "customerProspectId": 2627290811,
+        "customerMdmIdActive": 1591917156,
+        "customerExtId": "39412fd38266496aa1591c1e3a872e22",
+        "customerTypeCdExt": "12070003",
+        "lastNm": "Мищук",
+        "firstNm": "Леонид",
+        "thirdNm": "Николаевич",
+        "birthDt": "1988-11-01",
+        "appCustomerRoleCdExt": "10060001",
+        "documents": [
+          {
+            "docTypeCdExt": "10300001",
+            "docIsActualFlg": true,
+            "docSeries": "9509",
+            "docNum": "702126",
+            "issuerNm": "ТП УФМС России по Республике Хакасия в Орджоникидзевском районе",
+            "issueDt": "2009-06-25",
+            "issuerDepartmentNum": "190-012"
+          }
+        ],
+        "birthPlaceNm": "город Талас Киргизской ССР",
+        "genderCdExt": "10010001",
+        "corpCategoryCdExt": "10050002",
+        "mdmIdActiveVerifiedFlg": false,
+        "familyInfo": {
+          "maritalStatusCdExt": "10040004",
+          "childrenCnt": 0
+        },
+        "customerFlagsFront": [
+          {
+            "flagCdExt": "REPEAT_CLIENT_FLG",
+            "flagVal": 1
+          },
+          {
+            "flagCdExt": "SALARY_FLG",
+            "flagVal": 1
+          }
+        ],
+        "addresses": [
+          {
+            "addressTypeCdExt": "10150001",
+            "fullAddress": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+            "fullAddressNormalised": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+            "postalCd": "655153",
+            "countryCdExt": "RUS",
+            "regionCdExt": "10380019",
+            "provinceTypeNm": "Респ",
+            "provinceNm": "Хакасия",
+            "cityTypeNm": "г",
+            "cityNm": "Черногорск",
+            "streetTypeNm": "ул",
+            "streetNm": "Ташебинская",
+            "houseNum": "38"
+          },
+          {
+            "addressTypeCdExt": "10150003",
+            "fullAddress": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+            "fullAddressNormalised": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+            "postalCd": "655153",
+            "countryCdExt": "RUS",
+            "regionCdExt": "10380019",
+            "provinceTypeNm": "Респ",
+            "provinceNm": "Хакасия",
+            "cityTypeNm": "г",
+            "cityNm": "Черногорск",
+            "streetTypeNm": "ул",
+            "streetNm": "Ташебинская",
+            "houseNum": "38"
+          }
+        ],
+        "contacts": [
+          {
+            "contactTypeCdExt": "10020005",
+            "contactData": "9233956577"
+          }
+        ],
+        "education": {
+          "educationCdExt": "10030009"
+        },
+        "consents": [
+          {
+            "consentTypeCdExt": "10170003",
+            "consentFlg": true,
+            "activeFromDt": "2023-03-28",
+            "activeToDt": "2023-09-28",
+            "consentObtainingMethodCdExt": "12290003"
+          },
+          {
+            "consentTypeCdExt": "10170002",
+            "consentFlg": true,
+            "activeFromDt": "2023-03-28",
+            "activeToDt": "2023-09-28",
+            "consentObtainingMethodCdExt": "12290003"
+          },
+          {
+            "consentTypeCdExt": "10170001",
+            "consentFlg": true,
+            "activeFromDt": "2023-03-28",
+            "activeToDt": "2023-09-28",
+            "consentObtainingMethodCdExt": "12290003"
+          }
+        ],
+        "customerFormIncomes": [
+          {
+            "incomeAmt": 170000,
+            "incomeConfirmationCdExt": "Unconfirmed",
+            "incomeTypeCdExt": "10290001",
+            "customerFormEmployer": {
+              "customerFormEmployerId": "d08f68c7-b8cc-4bad-933c-5346df2c9868",
+              "customerFormId": "7c3947ff-2fba-459d-95da-ac8a65c489d7",
+              "taxNumber": "2434000335",
+              "employerName": "АО \"ПОЛЮС КРАСНОЯРСК\"",
+              "incomeTypeCdExt": "10290001",
+              "employmentTypeCdExt": "11670002",
+              "incomeTransactionsFlg": false
+            }
+          }
+        ],
+        "customerSegmentCdExt": "10540005"
+      }
+    ],
+    "rateList": [
+      {
+        "effectiveInterestRtVtbVal": 14.71,
+        "liabilityTypeCdExt": "01"
+      },
+      {
+        "effectiveInterestRtVtbVal": 7.88,
+        "liabilityTypeCdExt": "06"
+      },
+      {
+        "effectiveInterestRtVtbVal": 19.1,
+        "liabilityTypeCdExt": "09"
+      }
+    ],
+    "createChannelCdExt": "10620008",
+    "createChannelInfo": {
+      "initiatorNm": "А_ДЖИН_ПЛЮС"
+    },
+    "sendChannelInfo": {
+      "aggregatorNm": "11710001"
+    },
+    "creditHistoryBureauExtId": "01edcd6e-d6f1-17b4-887e-7ef7a7cc7a55-5"
+  },
+  "correctionCounterCheckFlg": true,
+  "correctionLimit": 1,
+  "correctionCounter": 0
+}

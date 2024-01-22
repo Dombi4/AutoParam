@@ -1,0 +1,281 @@
+{
+	"callCdExt": 10600004,
+	"stageCdExt": "AFS_CHECK",
+	"loanRequestVersion": "032",
+	"loanRequest": {
+		"callCdExt": 10600004,
+		"loanRequestExtId": "[customerRequestExtId]",
+		"loanRequestId": "[loanRequestId]",
+		"customerRequestExtId": "[customerRequestExtId]",
+		"extCreateDttm": "2023-03-28T13:45:51.166248",
+		"channelCdExt": "10620007",
+		"creditParameters": [
+			{
+				"productCdExt": "10410032",
+				"creditProgramCdExt": "07",
+				"requestedSum": 2590000,
+				"currencyCdExt": "10110118",
+				"loanTypeCdExt": "01",
+				"initialFeeAmt": 575000,
+				"newVehicleFlg": true,
+				"desiredVehicleValueAmt": 2875000,
+				"purchaseRegionCdExt": "10380016"
+			}
+		],
+		"employees": [
+			{
+				"lastNm": "Мавлиева",
+				"firstNm": "Динара",
+				"thirdNm": "Рафаиловна",
+				"employeeLoginNm": "VTB70157090",
+				"employeeNum": "70157090",
+				"bisDepartmentCdExt": "10770001",
+				"bankDepartmentCdExt": "11711588",
+				"employeeRoleCdExt": "10630002"
+			},
+			{
+				"lastNm": "Анкетный",
+				"firstNm": "сервис",
+				"employeeLoginNm": "websitecar",
+				"employeeNum": "11111318",
+				"bisDepartmentCdExt": "10770001",
+				"bankDepartmentCdExt": "0000",
+				"employeeRoleCdExt": "10630001"
+			}
+		],
+		"participants": [
+			{
+				"customerFormId": "180fe825-98a5-40f8-8c47-40a106c04e61",
+				"customerProspectId": 2627288858,
+				"customerExtId": "4c4d7f674949443a96a63fdc7cc4ad77",
+				"customerTypeCdExt": "12070003",
+				"lastNm": "Семиволкова",
+				"firstNm": "Роза",
+				"thirdNm": "Алексеевна",
+				"birthDt": "1959-08-03",
+				"appCustomerRoleCdExt": "10060001",
+				"documents": [
+					{
+						"docTypeCdExt": "10300001",
+						"docIsActualFlg": true,
+						"docSeries": "9205",
+						"docNum": "505871",
+						"issuerNm": "ОТДЕЛОМ ВНУТРЕННИХ ДЕЛ ТУКАЕВСКОГО РАЙОНА РЕСПУБЛИКИ ТАТАРСТАН",
+						"issueDt": "2004-12-22",
+						"issuerDepartmentNum": "162-014"
+					}
+				],
+				"birthPlaceNm": "С. ПОЛЕВЫЕ ЧЕКУРОВО БАТЫРЕВСКОГО Р-НА ЧУВАШСКОЙ АССР",
+				"genderCdExt": "10010002",
+				"corpCategoryCdExt": "10050009",
+				"mdmIdActiveVerifiedFlg": false,
+				"familyInfo": {
+					"maritalStatusCdExt": "10040003",
+					"childrenCnt": 0
+				},
+				"customerFlagsFront": [
+					{
+						"flagCdExt": "REPEAT_CLIENT_FLG",
+						"flagVal": 0
+					},
+					{
+						"flagCdExt": "SALARY_FLG",
+						"flagVal": 0
+					}
+				],
+				"addresses": [
+					{
+						"addressTypeCdExt": "10150001",
+						"fullAddress": "423716 Россия Респ Татарстан р-н Мензелинский с Топасево ул Ю.Гагарина дом 24",
+						"fullAddressNormalised": "423716 Россия Респ Татарстан р-н Мензелинский с Топасево ул Ю.Гагарина дом 24",
+						"postalCd": "423716",
+						"countryCdExt": "RUS",
+						"regionCdExt": "10380016",
+						"provinceTypeNm": "Респ",
+						"provinceNm": "Татарстан",
+						"districtTypeNm": "р-н",
+						"districtNm": "Мензелинский",
+						"townTypeNm": "с",
+						"townNm": "Топасево",
+						"streetTypeNm": "ул",
+						"streetNm": "Ю.Гагарина",
+						"houseNum": "24"
+					},
+					{
+						"addressTypeCdExt": "10150003",
+						"fullAddress": "423716 Россия Респ Татарстан р-н Мензелинский с Топасево ул Ю.Гагарина дом 24",
+						"fullAddressNormalised": "423716 Россия Респ Татарстан р-н Мензелинский с Топасево ул Ю.Гагарина дом 24",
+						"postalCd": "423716",
+						"countryCdExt": "RUS",
+						"regionCdExt": "10380016",
+						"provinceTypeNm": "Респ",
+						"provinceNm": "Татарстан",
+						"districtTypeNm": "р-н",
+						"districtNm": "Мензелинский",
+						"townTypeNm": "с",
+						"townNm": "Топасево",
+						"streetTypeNm": "ул",
+						"streetNm": "Ю.Гагарина",
+						"houseNum": "24"
+					}
+				],
+				"contacts": [
+					{
+						"contactTypeCdExt": "10020005",
+						"contactData": "9063306468"
+					}
+				],
+				"education": {
+					"educationCdExt": "10030009"
+				},
+				"consents": [
+					{
+						"consentTypeCdExt": "10170003",
+						"consentFlg": true,
+						"activeFromDt": "2023-03-28",
+						"activeToDt": "2023-09-28",
+						"consentObtainingMethodCdExt": "12290003"
+					},
+					{
+						"consentTypeCdExt": "10170002",
+						"consentFlg": true,
+						"activeFromDt": "2023-03-28",
+						"activeToDt": "2023-09-28",
+						"consentObtainingMethodCdExt": "12290003"
+					},
+					{
+						"consentTypeCdExt": "10170001",
+						"consentFlg": true,
+						"activeFromDt": "2023-03-28",
+						"activeToDt": "2023-09-28",
+						"consentObtainingMethodCdExt": "12290003"
+					}
+				],
+				"customerFormIncomes": [
+					{
+						"incomeAmt": 63018.54,
+						"incomeConfirmationCdExt": "Confirmed",
+						"incomeTypeCdExt": "10290001",
+						"customerFormEmployer": {
+							"customerFormEmployerId": "d37601d8-04a5-4d01-ae56-ff3cf46f8e60",
+							"customerFormId": "9e0a9e5a-d493-44b1-ab9a-4d1e28b3e39f",
+							"taxNumber": "7728168971",
+							"employerName": "АО \"ЕВРАЗ НТМК\"",
+							"incomeTypeCdExt": "10290001",
+							"employmentTypeCdExt": "11670002",
+							"incomeTransactionsFlg": false
+						}
+					},
+					{
+						"incomeAmt": 80000,
+						"incomeConfirmationCdExt": "Unconfirmed",
+						"incomeTypeCdExt": "10290010",
+						"customerFormEmployer": {
+							"customerFormEmployerId": "03e27523-0efb-43d3-9ab0-266090465f48",
+							"customerFormId": "0da6b545-57fa-41e5-b9ad-6cb064c643f6",
+							"incomeTypeCdExt": "10290010",
+							"employmentTypeCdExt": "11670002",
+							"incomeTransactionsFlg": false
+						}
+					},
+					{
+						"incomeAmt": 115000,
+						"incomeConfirmationCdExt": "Unconfirmed",
+						"incomeTypeCdExt": "10290001",
+						"customerFormEmployer": {
+							"customerFormEmployerId": "18f5f34f-bab7-4528-a9ab-5b03e74363e9",
+							"customerFormId": "0da6b545-57fa-41e5-b9ad-6cb064c643f6",
+							"taxNumber": "1659168293",
+							"employerName": "ООО \"ТАБЫШ\"",
+							"incomeTypeCdExt": "10290001",
+							"jobName": "УПРАВЛЯЮЩАЯ",
+							"jobCategoryCdExt": "10080005",
+							"employmentTypeCdExt": "11670002",
+							"workExperienceCurrentCdExt": "11400004",
+							"incomeTransactionsFlg": false,
+							"addresses": [
+								{
+									"addressTypeCdExt": "10150009",
+									"fullAddressNormalised": "423703 Россия Респ Татарстан р-н Мензелинский г Мензелинск ул К.Маркса дом 4",
+									"postalCd": "423703",
+									"countryCdExt": "RUS",
+									"regionCdExt": "10380016",
+									"provinceTypeNm": "Респ",
+									"provinceNm": "Татарстан",
+									"districtTypeNm": "р-н",
+									"districtNm": "Мензелинский",
+									"cityTypeNm": "г",
+									"cityNm": "Мензелинск",
+									"streetTypeNm": "ул",
+									"streetNm": "К.Маркса",
+									"houseNum": "4"
+								}
+							],
+							"contacts": [
+								{
+									"contactTypeCdExt": "10020022",
+									"contactData": "9393898418"
+								}
+							]
+						}
+					}
+				],
+				"customerAfsResults": [
+					{
+						"customerMdmIdActive": 1497939236,
+						"customerProspectId": 2627305527,
+						"rules": [
+							{
+								"ruleCd": "PHONE_042",
+								"ruleGroup": "GR0",
+								"ruleDescription": "Определен оператор связи по мобильному телефону Участника сделки из анкеты"
+							},
+							{
+								"ruleCd": "PHONE_041",
+								"ruleGroup": "GR0",
+								"ruleDescription": "Определен оператор связи по рабочему телефону (со слов клиента) Участника сделки"
+							},
+							{
+								"ruleCd": "PERS_018",
+								"ruleGroup": "GR1",
+								"ruleDescription": "Определен оператор связи по рабочему телефону (со слов клиента) Участника сделки"
+							}
+						]
+					}
+				],
+				"cusFormCommonEmployeeInfo": {
+					"workExperienceTotalCdExt": "11390004"
+				},
+				"customerSegmentCdExt": "10540002"
+			}
+		],
+		"creditRequestAfsResults": [
+			{}
+		],
+		"rateList": [
+			{
+				"effectiveInterestRtVtbVal": 14.71,
+				"liabilityTypeCdExt": "01"
+			},
+			{
+				"effectiveInterestRtVtbVal": 7.88,
+				"liabilityTypeCdExt": "06"
+			},
+			{
+				"effectiveInterestRtVtbVal": 19.1,
+				"liabilityTypeCdExt": "09"
+			}
+		],
+		"createChannelCdExt": "10620008",
+		"createChannelInfo": {
+			"initiatorNm": "А_ДИАЛОГ_АВТО_16"
+		},
+		"sendChannelInfo": {
+			"aggregatorNm": "024879"
+		},
+		"creditHistoryBureauExtId": "01edcd75-062f-18a4-828d-41f4c92b91ea-6"
+	},
+	"correctionCounterCheckFlg": true,
+	"correctionLimit": 1,
+	"correctionCounter": 0
+}

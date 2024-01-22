@@ -1,0 +1,2902 @@
+{
+	"callCdExt": 10600003,
+	"stageCdExt": "AFS_SECOND_CHECK",
+	"loanRequestVersion": "032",
+	"loanRequest": {
+		"callCdExt": 10600003,
+		"loanRequestExtId": "[customerRequestExtId]",
+		"loanRequestId": "[loanRequestId]",
+		"customerRequestExtId": "[customerRequestExtId]",
+		"extCreateDttm": "2023-03-28T11:08:34.098307",
+		"channelCdExt": "10620009",
+		"creditParameters": [
+			{
+				"productCdExt": "10410068",
+				"creditProgramCdExt": "69",
+				"requestedSum": 600000,
+				"currencyCdExt": "10110118",
+				"loanTypeCdExt": "01",
+				"initialFeeAmt": 0,
+				"purchaseRegionCdExt": "10380019"
+			}
+		],
+		"employees": [
+			{
+				"lastNm": "Маркин",
+				"firstNm": "Иван",
+				"thirdNm": "Анатольевич",
+				"employeeLoginNm": "KRSNMARKIN.IA",
+				"employeeNum": "70048242",
+				"bisDepartmentCdExt": "10770005",
+				"bankDepartmentCdExt": "3240",
+				"employeeRoleCdExt": "10630002"
+			},
+			{
+				"lastNm": "Анкетный",
+				"firstNm": "сервис",
+				"employeeLoginNm": "websitecar",
+				"employeeNum": "11111318",
+				"bisDepartmentCdExt": "10770001",
+				"bankDepartmentCdExt": "0000",
+				"employeeRoleCdExt": "10630001"
+			}
+		],
+		"participants": [
+			{
+				"customerFormId": "7c3947ff-2fba-459d-95da-ac8a65c489d7",
+				"customerProspectId": 2627290811,
+				"customerMdmIdActive": 1591917156,
+				"customerExtId": "39412fd38266496aa1591c1e3a872e22",
+				"customerTypeCdExt": "12070003",
+				"lastNm": "Мищук",
+				"firstNm": "Леонид",
+				"thirdNm": "Николаевич",
+				"birthDt": "1988-11-01",
+				"appCustomerRoleCdExt": "10060001",
+				"documents": [
+					{
+						"docTypeCdExt": "10300001",
+						"docIsActualFlg": true,
+						"docSeries": "9509",
+						"docNum": "702126",
+						"issuerNm": "ТП УФМС России по Республике Хакасия в Орджоникидзевском районе",
+						"issueDt": "2009-06-25",
+						"issuerDepartmentNum": "190-012"
+					}
+				],
+				"incomeTransactions": [
+					{
+						"incomeDt": "2022-06-30",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"incomeDt": "2022-04-30",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"incomeDt": "2023-01-31",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"incomeDt": "2023-02-28",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2022-03-31",
+						"incomeAmt": 196922.96,
+						"incomeEnrollmentTypeCdExt": "10210001",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"incomeDt": "2022-10-31",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"incomeDt": "2022-05-31",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"incomeDt": "2022-12-31",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"incomeDt": "2023-03-28",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"incomeDt": "2022-08-31",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"incomeDt": "2022-07-31",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"incomeDt": "2022-09-30",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2022-02-28",
+						"incomeAmt": 70190.31,
+						"incomeEnrollmentTypeCdExt": "10210001",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"incomeDt": "2022-11-30",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210001"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2022-06-30",
+						"incomeAmt": 76774.85,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2023-02-28",
+						"incomeAmt": 88775.98,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2022-05-31",
+						"incomeAmt": 55938.65,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2023-03-28",
+						"incomeAmt": 72909.13,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2022-07-31",
+						"incomeAmt": 255070.23,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2022-08-31",
+						"incomeAmt": 91649.93,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"incomeDt": "2022-03-31",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210002"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2022-04-30",
+						"incomeAmt": 169723.9,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2023-01-31",
+						"incomeAmt": 245396.09,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"incomeDt": "2022-11-30",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210002"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2022-10-31",
+						"incomeAmt": 68055.81,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"incomeDt": "2022-02-28",
+						"incomeAmt": 0,
+						"incomeEnrollmentTypeCdExt": "10210002"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2022-09-30",
+						"incomeAmt": 70525.93,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					},
+					{
+						"accountNum": "40817810738134000215",
+						"incomeDt": "2022-12-31",
+						"incomeAmt": 70805.6,
+						"incomeEnrollmentTypeCdExt": "10210002",
+						"sourceTaxNumber": "2434000335"
+					}
+				],
+				"passiveAccounts": [
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "541715******0629",
+						"closeFactDt": "2015-12-01",
+						"currencyCdExt": "10110118",
+						"openDt": "2013-02-19",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "40817810401962853068~671773603",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "2018-05-23",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "30601810905050612214",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "2021-06-12",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "40817810582291238935",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "1900-01-01",
+						"balCurrentRubAmt": 74.87,
+						"balMonLastDayRubAmt": 74.87,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817810138134003605",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "2020-06-10",
+						"balCurrentRubAmt": 22938.54,
+						"balMonLastDayRubAmt": 10442.04,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "40817810204922325050~1334104550",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "2019-07-31",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350012",
+						"accountNum": "42301810200600115013",
+						"closeFactDt": "2013-04-27",
+						"currencyCdExt": "10110118",
+						"openDt": "2013-02-19",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350012",
+						"accountNum": "42301810500600115013",
+						"closeFactDt": "2017-04-01",
+						"currencyCdExt": "10110118",
+						"openDt": "2013-02-19",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817840238134000170",
+						"closeFactDt": "2021-09-28",
+						"currencyCdExt": "10110146",
+						"openDt": "2019-09-07",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817840238134000170",
+						"closeFactDt": "2021-01-20",
+						"currencyCdExt": "10110146",
+						"depositPeriodMonCnt": 0,
+						"openDt": "2019-09-07",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350002",
+						"accountNum": "40817810738134000215",
+						"closeFactDt": "2020-11-24",
+						"currencyCdExt": "10110118",
+						"depositPeriodMonCnt": 0,
+						"openDt": "2018-05-23",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350012",
+						"accountNum": "42301810500600115013",
+						"closeFactDt": "2017-04-01",
+						"currencyCdExt": "10110118",
+						"openDt": "2013-02-19",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "40817810305952565860~1491401980",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "2019-10-12",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "541715******2085",
+						"closeFactDt": "2016-09-01",
+						"currencyCdExt": "10110118",
+						"openDt": "2013-09-27",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "498629******7322",
+						"closeFactDt": "2069-07-31",
+						"currencyCdExt": "10110118",
+						"openDt": "2019-07-31",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817810400430220557",
+						"closeFactDt": "2019-11-27",
+						"currencyCdExt": "10110118",
+						"openDt": "2014-11-06",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817810138134003605",
+						"closeFactDt": "2020-12-13",
+						"currencyCdExt": "10110118",
+						"depositPeriodMonCnt": 0,
+						"openDt": "2020-06-10",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "30601826505050608382",
+						"closeFactDt": "2022-06-30",
+						"currencyCdExt": "10110048",
+						"openDt": "2021-06-12",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817810400430220557",
+						"closeFactDt": "2019-11-27",
+						"currencyCdExt": "10110118",
+						"openDt": "2014-11-06",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350002",
+						"accountNum": "40817810738134000215",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "2018-05-23",
+						"balCurrentRubAmt": 72754.75,
+						"balMonLastDayRubAmt": 17970.12,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "40817810980430205267",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "1900-01-01",
+						"balCurrentRubAmt": 19.81,
+						"balMonLastDayRubAmt": 19.81,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817840838134000169",
+						"closeFactDt": "2019-10-12",
+						"currencyCdExt": "10110146",
+						"depositPeriodMonCnt": 0,
+						"openDt": "2019-09-07",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350002",
+						"accountNum": "40817840238134000167",
+						"closeFactDt": "2019-09-07",
+						"currencyCdExt": "10110146",
+						"depositPeriodMonCnt": 0,
+						"openDt": "2019-09-07",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817840538134000168",
+						"closeFactDt": "2021-10-10",
+						"currencyCdExt": "10110146",
+						"openDt": "2019-09-07",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "40817810100000006002/00048000000070792365",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "1900-01-01",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "30601978105050609079",
+						"closeFactDt": "2022-06-30",
+						"currencyCdExt": "10110045",
+						"openDt": "2021-06-12",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "541715******4972",
+						"closeFactDt": "2019-08-01",
+						"currencyCdExt": "10110118",
+						"openDt": "2016-08-03",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350002",
+						"accountNum": "40817840938134000166",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110146",
+						"openDt": "2019-09-07",
+						"balCurrentRubAmt": 65.84693,
+						"balMonLastDayRubAmt": 65.84693,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817840538134000168",
+						"closeFactDt": "2021-01-20",
+						"currencyCdExt": "10110146",
+						"depositPeriodMonCnt": 0,
+						"openDt": "2019-09-07",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "40817810800000005002/00048000000103993366",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "1900-01-01",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "30601840805050612229",
+						"closeFactDt": "2022-06-30",
+						"currencyCdExt": "10110146",
+						"openDt": "2021-06-12",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350016",
+						"accountNum": "40817810220466010588",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110118",
+						"openDt": "2021-07-05",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "30601756705050608456",
+						"closeFactDt": "2022-06-30",
+						"currencyCdExt": "10110028",
+						"openDt": "2021-06-12",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817840238134000170",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110146",
+						"openDt": "2019-09-07",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350002",
+						"accountNum": "40817840938134000166",
+						"closeFactDt": "2020-12-13",
+						"currencyCdExt": "10110146",
+						"depositPeriodMonCnt": 0,
+						"openDt": "2019-09-07",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					},
+					{
+						"accountTypeCdExt": "10350001",
+						"accountNum": "40817840538134000168",
+						"closeFactDt": "5999-12-31",
+						"currencyCdExt": "10110146",
+						"openDt": "2019-09-07",
+						"balCurrentRubAmt": 0,
+						"balMonLastDayRubAmt": 0,
+						"balCurrentCurrencyAmt": 0,
+						"balMonLastDayCurrAmt": 0
+					}
+				],
+				"birthPlaceNm": "город Талас Киргизской ССР",
+				"genderCdExt": "10010001",
+				"corpCategoryCdExt": "10050002",
+				"mdmIdActiveVerifiedFlg": false,
+				"familyInfo": {
+					"maritalStatusCdExt": "10040004",
+					"childrenCnt": 0
+				},
+				"customerFlagsFront": [
+					{
+						"flagCdExt": "REPEAT_CLIENT_FLG",
+						"flagVal": 1
+					},
+					{
+						"flagCdExt": "SALARY_FLG",
+						"flagVal": 1
+					}
+				],
+				"addresses": [
+					{
+						"addressTypeCdExt": "10150003",
+						"fullAddress": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+						"fullAddressNormalised": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+						"postalCd": "655153",
+						"countryCdExt": "RUS",
+						"regionCdExt": "10380019",
+						"provinceTypeNm": "Респ",
+						"provinceNm": "Хакасия",
+						"cityTypeNm": "г",
+						"cityNm": "Черногорск",
+						"streetTypeNm": "ул",
+						"streetNm": "Ташебинская",
+						"houseNum": "38",
+						"incomeRegionAvgAmt": 27883
+					},
+					{
+						"addressTypeCdExt": "10150001",
+						"fullAddress": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+						"fullAddressNormalised": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+						"postalCd": "655153",
+						"countryCdExt": "RUS",
+						"regionCdExt": "10380019",
+						"provinceTypeNm": "Респ",
+						"provinceNm": "Хакасия",
+						"cityTypeNm": "г",
+						"cityNm": "Черногорск",
+						"streetTypeNm": "ул",
+						"streetNm": "Ташебинская",
+						"houseNum": "38",
+						"incomeRegionAvgAmt": 27883
+					}
+				],
+				"contacts": [
+					{
+						"contactTypeCdExt": "10020005",
+						"contactData": "9233956577"
+					}
+				],
+				"education": {
+					"educationCdExt": "10030009"
+				},
+				"employer": {
+					"emplTaxNum": "2434000335",
+					"emplTaxNumActualDt": "2023-03-10",
+					"jobCategoryCdExt": "10080005",
+					"emplEmploymentTypeCdExt": "10370002",
+					"workExperienceCurrentCdExt": "11400004",
+					"workExperienceCurrentCalcCdExt": "11400004",
+					"employerNm": "АО \"ПОЛЮС КРАСНОЯРСК\""
+				},
+				"stoplistResults": [
+					{
+						"responseDttm": "2023-03-28T11:08:46.263795",
+						"sourceSystemCdExt": "10280138",
+						"stoplistConclusions": [
+							{
+								"tin": "2434000335",
+								"checkDataTypeCdExt": "11460005"
+							},
+							{
+								"checkDataTypeCdExt": "11460003"
+							},
+							{
+								"checkDataTypeCdExt": "11460001"
+							}
+						]
+					}
+				],
+				"consents": [
+					{
+						"consentTypeCdExt": "10170003",
+						"consentFlg": true,
+						"activeFromDt": "2023-03-28",
+						"activeToDt": "2023-09-28",
+						"consentObtainingMethodCdExt": "12290003"
+					},
+					{
+						"consentTypeCdExt": "10170002",
+						"consentFlg": true,
+						"activeFromDt": "2023-03-28",
+						"activeToDt": "2023-09-28",
+						"consentObtainingMethodCdExt": "12290003"
+					},
+					{
+						"consentTypeCdExt": "10170001",
+						"consentFlg": true,
+						"activeFromDt": "2023-03-28",
+						"activeToDt": "2023-09-28",
+						"consentObtainingMethodCdExt": "12290003"
+					}
+				],
+				"liabilities": [
+					{
+						"recordId": "c1079d34-e153-42e5-9da1-014f09f9343e",
+						"totalFlg": false,
+						"agreementMigrRootRk": "1321462249",
+						"agreementRk": "1861929780",
+						"agrCloseFactDt": "2020-06-12",
+						"agrClosePlanDt": "2023-12-12",
+						"agrOpenDt": "2016-05-12",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "1369209747",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "28",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 19.96,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 1350000,
+						"initialLoanRubAmt": 1350000,
+						"initialTermMonCnt": 91,
+						"interestRateVal": 19.9,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "95013",
+						"liabilitySourceSysCdExt": "97053",
+						"liabilityUuid": "ad7b8b2a-9a9f-11e8-9e61-98be9466a758-b",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "639/3313-0001072",
+						"loanTypeCdExt": "09",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 0,
+						"productKindCdExt": "99",
+						"productSubCd": "Т2",
+						"statusCdExt": "10070002",
+						"liabilityBranchSourceSysCdExt": "10280069",
+						"paymentDiscipline": "11111111111111111111111111111111111111111111111110",
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 0,
+						"debtPriRubAmt": 0,
+						"nonStandartFlg": false,
+						"collateralCostAmt": 0,
+						"productOperationalCd": "Т2"
+					},
+					{
+						"recordId": "192794c3-ae27-4464-83ec-311d2053d078",
+						"totalFlg": false,
+						"agreementMigrRootRk": "-1",
+						"agreementRk": "-1",
+						"agrCloseFactDt": "5999-12-31",
+						"agrClosePlanDt": "2025-06-30",
+						"agrOpenDt": "2020-06-10",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "4278230477",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "17",
+						"debtCurrAmt": 918862.96,
+						"debtRubAmt": 918862.96,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 9.908,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 1799999.15,
+						"initialLoanRubAmt": 1799999.15,
+						"initialTermMonCnt": 61,
+						"interestRateVal": 8.9,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "10289999",
+						"liabilitySourceSysCdExt": "99980",
+						"liabilityUuid": "b366451c-ab48-11ea-9e61-98be9466a758-e",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "625/0040-1204384",
+						"loanTypeCdExt": "09",
+						"monPaymentCurrCalcAmt": 37277.72,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 37277.72,
+						"monPaymentRubFctAmt": 0,
+						"paymentDatePlanDt": "2023-03-28",
+						"productKindCdExt": "99",
+						"productSubCd": "ПЩ",
+						"statusCdExt": "10070001",
+						"liabilityBranchSourceSysCdExt": "10280069",
+						"paymentDiscipline": "1111111111111111111111111111111110",
+						"monPaymentRubAnnuityAmt": 37686.68395,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 918862.96,
+						"debtPriRubAmt": 918862.96,
+						"ifrsPd": 0.01883888,
+						"nonStandartFlg": false,
+						"collateralCostAmt": 0,
+						"productOperationalCd": "ПЩ"
+					},
+					{
+						"recordId": "8e51d6eb-5f02-46ba-8485-032174f1592a",
+						"totalFlg": false,
+						"agreementMigrRootRk": "1739805674",
+						"agreementRk": "1739805674",
+						"agrCloseFactDt": "5999-12-31",
+						"agrClosePlanDt": "2048-05-25",
+						"agrOpenDt": "2018-05-23",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "1739835724",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "18",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 0,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 0,
+						"initialLoanRubAmt": 0,
+						"initialTermMonCnt": 360,
+						"interestRateVal": 26,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "97053",
+						"liabilitySourceSysCdExt": "97053",
+						"liabilityUuid": "5fa76392-5ed4-11e8-9e61-98be9466a758-c",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "633/0040-0819185",
+						"loanTypeCdExt": "07",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 0,
+						"productKindCdExt": "99",
+						"productSubCd": "24,КY,01008",
+						"statusCdExt": "10070001",
+						"liabilityBranchSourceSysCdExt": "10280069",
+						"paymentDiscipline": "1111111111111111111111111111111111111111111A11A111111A11110",
+						"amendments": [
+							{
+								"amendTypeCdExt": "10710001",
+								"requestReasonCdExt": "10720012",
+								"periodTypeCdExt": "10730001",
+								"planEndDt": "2020-06-19",
+								"reasonForTerminationCdExt": "10740001",
+								"startDt": "2020-04-20",
+								"factEndDt": "2020-06-19"
+							}
+						],
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 0,
+						"debtPriRubAmt": 0,
+						"nonStandartFlg": false,
+						"productOperationalCd": "КY"
+					},
+					{
+						"recordId": "ad541894-4883-4a1d-bb78-4a61bcdf0ab3",
+						"totalFlg": false,
+						"agreementMigrRootRk": "1341155596",
+						"agreementRk": "1341155596",
+						"agrCloseFactDt": "2019-11-19",
+						"agrClosePlanDt": "2046-11-07",
+						"agrOpenDt": "2016-11-07",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "1308060986",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "28",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 0,
+						"initialLoanRubAmt": 0,
+						"initialTermMonCnt": 360,
+						"interestRateVal": 24.9,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "95013",
+						"liabilitySourceSysCdExt": "95013",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "001-P-95239677",
+						"loanTypeCdExt": "07",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 0,
+						"productKindCdExt": "99",
+						"productSubCd": "CREDIT_CARD",
+						"statusCdExt": "10070002",
+						"liabilityBranchSourceSysCdExt": "95013",
+						"paymentDiscipline": "1111111111111111111111111111111111110",
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 0,
+						"debtPriRubAmt": 0,
+						"nonStandartFlg": false,
+						"productOperationalCd": "876"
+					},
+					{
+						"recordId": "56919deb-1105-49a7-a538-02bb25a810da",
+						"totalFlg": false,
+						"agreementMigrRootRk": "7780179816",
+						"agreementRk": "7780179816",
+						"agrCloseFactDt": "5999-12-31",
+						"agrClosePlanDt": "2051-07-05",
+						"agrOpenDt": "2021-07-05",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "7779766108",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "18",
+						"debtCurrAmt": 163442.67,
+						"debtRubAmt": 163442.67,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 23.613,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 394000,
+						"initialLoanRubAmt": 394000,
+						"initialTermMonCnt": 360,
+						"interestRateVal": 23.9,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "10280026",
+						"liabilitySourceSysCdExt": "10280026",
+						"liabilityUuid": "e41f447b-dd63-11eb-ab3a-00109b34f338-8",
+						"limitCurrentCurrAmt": 394000,
+						"limitCurrentRubAmt": 394000,
+						"limitLastDayMonCurrAmt": 394000,
+						"limitLastDayMonRubAmt": 394000,
+						"loanAgreementNum": "KK-651071896544",
+						"loanTypeCdExt": "07",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 10000,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 10000,
+						"productKindCdExt": "99",
+						"productSubCd": "ЗАЕМЩИК",
+						"statusCdExt": "10070001",
+						"liabilityBranchSourceSysCdExt": "10280026",
+						"paymentDiscipline": "111111111111111111110",
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 163442.67,
+						"debtPriRubAmt": 163442.67,
+						"ifrsPd": 0.0424,
+						"nonStandartFlg": false
+					},
+					{
+						"recordId": "dd0b3467-06d3-4ce1-889d-4bd8addf59b0",
+						"totalFlg": false,
+						"agreementMigrRootRk": "3244885924",
+						"agreementRk": "3244885924",
+						"agrCloseFactDt": "2020-06-24",
+						"agrClosePlanDt": "2049-10-12",
+						"agrOpenDt": "2019-10-12",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "3244883396",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "28",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 23.47,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 0,
+						"initialLoanRubAmt": 0,
+						"initialTermMonCnt": 360,
+						"interestRateVal": 24.9,
+						"intPreapprovedFlg": true,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "97053",
+						"liabilitySourceSysCdExt": "97053",
+						"liabilityUuid": "2a12e326-ed42-11e9-9e61-98be9466a758-7",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "633/0040-1147228",
+						"loanTypeCdExt": "07",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 0,
+						"productKindCdExt": "99",
+						"productSubCd": "24,КS,00227",
+						"statusCdExt": "10070002",
+						"liabilityBranchSourceSysCdExt": "10280069",
+						"paymentDiscipline": "111111110",
+						"amendments": [
+							{
+								"amendTypeCdExt": "10710001",
+								"requestReasonCdExt": "10720012",
+								"periodTypeCdExt": "10730001",
+								"planEndDt": "2020-06-19",
+								"reasonForTerminationCdExt": "10740001",
+								"startDt": "2020-04-20",
+								"factEndDt": "2020-06-19"
+							}
+						],
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 0,
+						"debtPriRubAmt": 0,
+						"nonStandartFlg": false,
+						"productOperationalCd": "КS"
+					},
+					{
+						"recordId": "e5ae51dd-3694-41d1-abdc-cc3ed74db8b6",
+						"totalFlg": false,
+						"agreementMigrRootRk": "7780181564",
+						"agreementRk": "7780181564",
+						"agrCloseFactDt": "2021-07-15",
+						"agrClosePlanDt": "2051-07-05",
+						"agrOpenDt": "2021-07-05",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "7779764792",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "28",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 23.613,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 0,
+						"initialLoanRubAmt": 0,
+						"initialTermMonCnt": 360,
+						"interestRateVal": 23.9,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "10280026",
+						"liabilitySourceSysCdExt": "10280026",
+						"liabilityUuid": "255b96ce-dd5f-11eb-ab3a-00109b34f338-1",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "KK-651071894416",
+						"loanTypeCdExt": "07",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 0,
+						"productKindCdExt": "99",
+						"productSubCd": "ЗАЕМЩИК",
+						"statusCdExt": "10070002",
+						"liabilityBranchSourceSysCdExt": "10280026",
+						"paymentDiscipline": "10",
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 0,
+						"debtPriRubAmt": 0,
+						"nonStandartFlg": false
+					},
+					{
+						"recordId": "f68f6eb1-5dd1-43e3-a93f-42ed42e03d52",
+						"totalFlg": true,
+						"agrCloseFactDt": "2021-03-29",
+						"agrClosePlanDt": "2021-03-28",
+						"agrOpenDt": "2020-06-21",
+						"agrTypeCdExt": "10250001",
+						"clAgrRoleCdExt": "10060001",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 16.582,
+						"externalFlg": true,
+						"initialLoanCurrAmt": 112478,
+						"initialLoanRubAmt": 112478,
+						"interestRateVal": 47.74,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityUuid": "fe46dbc2-b3b8-11ea-93d5-5dac2593b099-3",
+						"limitCurrentCurrAmt": 112478,
+						"limitCurrentRubAmt": 112478,
+						"limitLastDayMonCurrAmt": 112478,
+						"limitLastDayMonRubAmt": 112478,
+						"loanTypeCdExt": "09",
+						"monPaymentCurrCalcAmt": 15112.57,
+						"monPaymentRubCalcAmt": 15112.57,
+						"statusCdExt": "10070002",
+						"totalLoanPriceAmt": 16.582,
+						"paymentDiscipline": "1111111111",
+						"pmtStringStartDt": "2021-03-29",
+						"collateralRepayment18MFlg": false
+					},
+					{
+						"recordId": "cd8e2108-d479-4a53-a4bb-de0f2fe2a204",
+						"totalFlg": true,
+						"agrCloseFactDt": "2022-09-30",
+						"agrClosePlanDt": "2024-01-31",
+						"agrOpenDt": "2022-01-31",
+						"agrTypeCdExt": "10250001",
+						"clAgrRoleCdExt": "10060001",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 15.429,
+						"externalFlg": true,
+						"initialLoanCurrAmt": 30590,
+						"initialLoanRubAmt": 30590,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityUuid": "87b9354c-8259-11ec-8d2b-6a71e883ec02-f",
+						"limitCurrentCurrAmt": 30590,
+						"limitCurrentRubAmt": 30590,
+						"limitLastDayMonCurrAmt": 30590,
+						"limitLastDayMonRubAmt": 30590,
+						"loanTypeCdExt": "09",
+						"monPaymentCurrCalcAmt": 1602.1,
+						"monPaymentRubCalcAmt": 1602.1,
+						"statusCdExt": "10070002",
+						"totalLoanPriceAmt": 15.429,
+						"paymentDiscipline": "111111111",
+						"pmtStringStartDt": "2022-09-30",
+						"collateralRepayment18MFlg": false
+					},
+					{
+						"recordId": "b3b6ff2d-96c6-4b7f-a389-98a873442ca0",
+						"totalFlg": true,
+						"agrCloseFactDt": "2019-07-16",
+						"agrClosePlanDt": "2019-12-16",
+						"agrOpenDt": "2018-12-16",
+						"agrTypeCdExt": "10250001",
+						"clAgrRoleCdExt": "10060001",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 16.66,
+						"externalFlg": true,
+						"initialLoanCurrAmt": 19457,
+						"initialLoanRubAmt": 19457,
+						"interestRateVal": 6,
+						"liabilityCurrencyCdExt": "10110118",
+						"limitCurrentCurrAmt": 19457,
+						"limitCurrentRubAmt": 19457,
+						"limitLastDayMonCurrAmt": 19457,
+						"limitLastDayMonRubAmt": 19457,
+						"loanTypeCdExt": "09",
+						"monPaymentCurrCalcAmt": 1674.59,
+						"monPaymentRubCalcAmt": 1674.59,
+						"statusCdExt": "10070002",
+						"totalLoanPriceAmt": 16.66,
+						"paymentDiscipline": "11111111",
+						"pmtStringStartDt": "2019-07-16",
+						"collateralRepayment18MFlg": false
+					},
+					{
+						"recordId": "adb5c550-0956-4e4b-aa39-4cf21398c6af",
+						"totalFlg": true,
+						"agrClosePlanDt": "2023-11-20",
+						"agrOpenDt": "2022-11-20",
+						"agrTypeCdExt": "10250001",
+						"clAgrRoleCdExt": "10060001",
+						"debtCurrAmt": 32755.79,
+						"debtRubAmt": 32755.79,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 14.833,
+						"externalFlg": true,
+						"initialLoanCurrAmt": 45859.3,
+						"initialLoanRubAmt": 45859.3,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityUuid": "c992433a-6888-11ed-a26b-9f5705b1aa26-0",
+						"limitCurrentCurrAmt": 45859.3,
+						"limitCurrentRubAmt": 45859.3,
+						"limitLastDayMonCurrAmt": 45859,
+						"limitLastDayMonRubAmt": 45859,
+						"loanTypeCdExt": "09",
+						"monPaymentCurrCalcAmt": 4314.27,
+						"monPaymentRubCalcAmt": 4314.27,
+						"statusCdExt": "10070001",
+						"totalLoanPriceAmt": 14.833,
+						"paymentDiscipline": "11111",
+						"pmtStringStartDt": "2023-03-24",
+						"collateralRepayment18MFlg": false
+					},
+					{
+						"recordId": "9fd3b8f1-99e3-4c73-8be5-30e01c84ff04",
+						"totalFlg": true,
+						"agrClosePlanDt": "2026-09-26",
+						"agrOpenDt": "2019-10-23",
+						"agrTypeCdExt": "10250001",
+						"clAgrRoleCdExt": "10060001",
+						"debtCurrAmt": 115021,
+						"debtRubAmt": 115021,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 17.815,
+						"externalFlg": true,
+						"initialLoanCurrAmt": 550000,
+						"initialLoanRubAmt": 550000,
+						"interestRateVal": 9.5,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityUuid": "0cf9afa5-e1e0-1037-8fd5-005056ba993c-b",
+						"limitCurrentCurrAmt": 550000,
+						"limitCurrentRubAmt": 550000,
+						"limitLastDayMonCurrAmt": 550000,
+						"limitLastDayMonRubAmt": 550000,
+						"loanTypeCdExt": "09",
+						"monPaymentCurrCalcAmt": 9065.59,
+						"monPaymentRubCalcAmt": 9065.59,
+						"statusCdExt": "10070001",
+						"totalLoanPriceAmt": 17.815,
+						"paymentDiscipline": "111111111111111111111111111111111111111111",
+						"pmtStringStartDt": "2023-03-25",
+						"collateralRepayment18MFlg": false
+					},
+					{
+						"recordId": "65c482f8-28ef-4e5a-a68f-1af25d91b925",
+						"totalFlg": true,
+						"agreementMigrRootRk": "-1",
+						"agreementRk": "-1",
+						"agrCloseFactDt": "5999-12-31",
+						"agrClosePlanDt": "2025-06-30",
+						"agrOpenDt": "2020-06-10",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "4278230477",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "17",
+						"debtCurrAmt": 918862.96,
+						"debtRubAmt": 918862.96,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 9.908,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 1799999.15,
+						"initialLoanRubAmt": 1799999.15,
+						"initialTermMonCnt": 61,
+						"interestRateVal": 8.9,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "10289999",
+						"liabilitySourceSysCdExt": "99980",
+						"liabilityUuid": "b366451c-ab48-11ea-9e61-98be9466a758-e",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "625/0040-1204384",
+						"loanTypeCdExt": "09",
+						"monPaymentCurrCalcAmt": 37277.72,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 37277.72,
+						"monPaymentRubFctAmt": 0,
+						"paymentDatePlanDt": "2023-03-28",
+						"productKindCdExt": "99",
+						"productSubCd": "ПЩ",
+						"statusCdExt": "10070001",
+						"liabilityBranchSourceSysCdExt": "10280069",
+						"paymentDiscipline": "1111111111111111111111111111111110",
+						"monPaymentRubAnnuityAmt": 37686.68395,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 918862.96,
+						"debtPriRubAmt": 918862.96,
+						"ifrsPd": 0.01883888,
+						"nonStandartFlg": false,
+						"collateralCostAmt": 0,
+						"productOperationalCd": "ПЩ"
+					},
+					{
+						"recordId": "5732a6e3-dcab-41d9-a6fa-616cadc552c5",
+						"totalFlg": true,
+						"agreementMigrRootRk": "1739805674",
+						"agreementRk": "1739805674",
+						"agrCloseFactDt": "5999-12-31",
+						"agrClosePlanDt": "2048-05-25",
+						"agrOpenDt": "2018-05-23",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "1739835724",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "18",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 0,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 0,
+						"initialLoanRubAmt": 0,
+						"initialTermMonCnt": 360,
+						"interestRateVal": 26,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "97053",
+						"liabilitySourceSysCdExt": "97053",
+						"liabilityUuid": "5fa76392-5ed4-11e8-9e61-98be9466a758-c",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "633/0040-0819185",
+						"loanTypeCdExt": "07",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 0,
+						"productKindCdExt": "99",
+						"productSubCd": "24,КY,01008",
+						"statusCdExt": "10070001",
+						"liabilityBranchSourceSysCdExt": "10280069",
+						"paymentDiscipline": "1111111111111111111111111111111111111111111A11A111111A11110",
+						"amendments": [
+							{
+								"amendTypeCdExt": "10710001",
+								"requestReasonCdExt": "10720012",
+								"periodTypeCdExt": "10730001",
+								"planEndDt": "2020-06-19",
+								"reasonForTerminationCdExt": "10740001",
+								"startDt": "2020-04-20",
+								"factEndDt": "2020-06-19"
+							}
+						],
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 0,
+						"debtPriRubAmt": 0,
+						"nonStandartFlg": false,
+						"productOperationalCd": "КY"
+					},
+					{
+						"recordId": "36f9a40b-4668-40cc-b62f-35e192bcae03",
+						"totalFlg": true,
+						"agreementMigrRootRk": "3244885924",
+						"agreementRk": "3244885924",
+						"agrCloseFactDt": "2020-06-24",
+						"agrClosePlanDt": "2049-10-12",
+						"agrOpenDt": "2019-10-12",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "3244883396",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "28",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 23.47,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 0,
+						"initialLoanRubAmt": 0,
+						"initialTermMonCnt": 360,
+						"interestRateVal": 24.9,
+						"intPreapprovedFlg": true,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "97053",
+						"liabilitySourceSysCdExt": "97053",
+						"liabilityUuid": "2a12e326-ed42-11e9-9e61-98be9466a758-7",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "633/0040-1147228",
+						"loanTypeCdExt": "07",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 0,
+						"productKindCdExt": "99",
+						"productSubCd": "24,КS,00227",
+						"statusCdExt": "10070002",
+						"liabilityBranchSourceSysCdExt": "10280069",
+						"paymentDiscipline": "111111110",
+						"amendments": [
+							{
+								"amendTypeCdExt": "10710001",
+								"requestReasonCdExt": "10720012",
+								"periodTypeCdExt": "10730001",
+								"planEndDt": "2020-06-19",
+								"reasonForTerminationCdExt": "10740001",
+								"startDt": "2020-04-20",
+								"factEndDt": "2020-06-19"
+							}
+						],
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 0,
+						"debtPriRubAmt": 0,
+						"nonStandartFlg": false,
+						"productOperationalCd": "КS"
+					},
+					{
+						"recordId": "c4c222a2-616e-4006-b31a-bc4f836cd029",
+						"totalFlg": true,
+						"agreementMigrRootRk": "7780179816",
+						"agreementRk": "7780179816",
+						"agrCloseFactDt": "5999-12-31",
+						"agrClosePlanDt": "2051-07-05",
+						"agrOpenDt": "2021-07-05",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "7779766108",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "18",
+						"debtCurrAmt": 163442.67,
+						"debtRubAmt": 163442.67,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 23.613,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 394000,
+						"initialLoanRubAmt": 394000,
+						"initialTermMonCnt": 360,
+						"interestRateVal": 23.9,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "10280026",
+						"liabilitySourceSysCdExt": "10280026",
+						"liabilityUuid": "e41f447b-dd63-11eb-ab3a-00109b34f338-8",
+						"limitCurrentCurrAmt": 394000,
+						"limitCurrentRubAmt": 394000,
+						"limitLastDayMonCurrAmt": 394000,
+						"limitLastDayMonRubAmt": 394000,
+						"loanAgreementNum": "KK-651071896544",
+						"loanTypeCdExt": "07",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 10000,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 10000,
+						"productKindCdExt": "99",
+						"productSubCd": "ЗАЕМЩИК",
+						"statusCdExt": "10070001",
+						"liabilityBranchSourceSysCdExt": "10280026",
+						"paymentDiscipline": "111111111111111111110",
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 163442.67,
+						"debtPriRubAmt": 163442.67,
+						"ifrsPd": 0.0424,
+						"nonStandartFlg": false
+					},
+					{
+						"recordId": "a2e273d0-b0f5-4d28-9140-5ef6ed9e0092",
+						"totalFlg": true,
+						"agreementMigrRootRk": "1321462249",
+						"agreementRk": "1861929780",
+						"agrCloseFactDt": "2020-06-12",
+						"agrClosePlanDt": "2023-12-12",
+						"agrOpenDt": "2016-05-12",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "1369209747",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "28",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 19.96,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 1350000,
+						"initialLoanRubAmt": 1350000,
+						"initialTermMonCnt": 91,
+						"interestRateVal": 19.9,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "95013",
+						"liabilitySourceSysCdExt": "97053",
+						"liabilityUuid": "ad7b8b2a-9a9f-11e8-9e61-98be9466a758-b",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "639/3313-0001072",
+						"loanTypeCdExt": "09",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 0,
+						"productKindCdExt": "99",
+						"productSubCd": "Т2",
+						"statusCdExt": "10070002",
+						"liabilityBranchSourceSysCdExt": "10280069",
+						"paymentDiscipline": "11111111111111111111111111111111111111111111111110",
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 0,
+						"debtPriRubAmt": 0,
+						"nonStandartFlg": false,
+						"collateralCostAmt": 0,
+						"productOperationalCd": "Т2"
+					},
+					{
+						"recordId": "616461a2-9925-406c-8c4c-c34d7b6abdc0",
+						"totalFlg": true,
+						"agrCloseFactDt": "2019-10-30",
+						"agrClosePlanDt": "2019-10-28",
+						"agrOpenDt": "2017-12-16",
+						"agrTypeCdExt": "10250001",
+						"clAgrRoleCdExt": "10060001",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 19.9,
+						"externalFlg": true,
+						"initialLoanCurrAmt": 500000,
+						"initialLoanRubAmt": 500000,
+						"interestRateVal": 19.9,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityUuid": "bb93e930-0cda-11ea-865d-0da74b795e6b-a",
+						"limitCurrentCurrAmt": 500000,
+						"limitCurrentRubAmt": 500000,
+						"limitLastDayMonCurrAmt": 500000,
+						"limitLastDayMonRubAmt": 500000,
+						"loanTypeCdExt": "09",
+						"monPaymentCurrCalcAmt": 27310.51,
+						"monPaymentRubCalcAmt": 27310.51,
+						"statusCdExt": "10070002",
+						"totalLoanPriceAmt": 19.9,
+						"paymentDiscipline": "11111111111111111111111",
+						"pmtStringStartDt": "2019-10-30",
+						"collateralRepayment18MFlg": false
+					},
+					{
+						"recordId": "ab1925ed-1ec4-4a49-92c5-17bff2e336bb",
+						"totalFlg": true,
+						"agreementMigrRootRk": "1341155596",
+						"agreementRk": "1341155596",
+						"agrCloseFactDt": "2019-11-19",
+						"agrClosePlanDt": "2046-11-07",
+						"agrOpenDt": "2016-11-07",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "1308060986",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "28",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 0,
+						"initialLoanRubAmt": 0,
+						"initialTermMonCnt": 360,
+						"interestRateVal": 24.9,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "95013",
+						"liabilitySourceSysCdExt": "95013",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "001-P-95239677",
+						"loanTypeCdExt": "07",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 0,
+						"productKindCdExt": "99",
+						"productSubCd": "CREDIT_CARD",
+						"statusCdExt": "10070002",
+						"liabilityBranchSourceSysCdExt": "95013",
+						"paymentDiscipline": "1111111111111111111111111111111111110",
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 0,
+						"debtPriRubAmt": 0,
+						"nonStandartFlg": false,
+						"productOperationalCd": "876"
+					},
+					{
+						"recordId": "08752924-fa70-4cb4-a548-df00a0e87d5b",
+						"totalFlg": true,
+						"agreementMigrRootRk": "7780181564",
+						"agreementRk": "7780181564",
+						"agrCloseFactDt": "2021-07-15",
+						"agrClosePlanDt": "2051-07-05",
+						"agrOpenDt": "2021-07-05",
+						"agrTypeCdExt": "10250001",
+						"applyFlg": true,
+						"appRk": "7779764792",
+						"clAgrRoleCdExt": "10060001",
+						"collateralRepaymentFlg": false,
+						"creditProgramCdExt": "28",
+						"debtCurrAmt": 0,
+						"debtRubAmt": 0,
+						"delinqClose905YCnt": 0,
+						"delinqCurCurrAmt": 0,
+						"delinqCurDaysCnt": 0,
+						"delinqCurRubAmt": 0,
+						"effectiveInterestRateVal": 23.613,
+						"externalFlg": false,
+						"fullSaleFlg": false,
+						"initialLoanCurrAmt": 0,
+						"initialLoanRubAmt": 0,
+						"initialTermMonCnt": 360,
+						"interestRateVal": 23.9,
+						"intPreapprovedFlg": false,
+						"intRestructureFlg": false,
+						"intSecuredFlg": false,
+						"liabilityCurrencyCdExt": "10110118",
+						"liabilityRootSourceSysCdExt": "10280026",
+						"liabilitySourceSysCdExt": "10280026",
+						"liabilityUuid": "255b96ce-dd5f-11eb-ab3a-00109b34f338-1",
+						"limitCurrentCurrAmt": 0,
+						"limitCurrentRubAmt": 0,
+						"limitLastDayMonCurrAmt": 0,
+						"limitLastDayMonRubAmt": 0,
+						"loanAgreementNum": "KK-651071894416",
+						"loanTypeCdExt": "07",
+						"monPaymentCurrCalcAmt": 0,
+						"monPaymentCurrFctAmt": 0,
+						"monPaymentRubCalcAmt": 0,
+						"monPaymentRubFctAmt": 0,
+						"productKindCdExt": "99",
+						"productSubCd": "ЗАЕМЩИК",
+						"statusCdExt": "10070002",
+						"liabilityBranchSourceSysCdExt": "10280026",
+						"paymentDiscipline": "10",
+						"monPaymentRubAnnuityAmt": 0,
+						"delinqClose1180DCnt": 0,
+						"debtPriCurrAmt": 0,
+						"debtPriRubAmt": 0,
+						"nonStandartFlg": false
+					}
+				],
+				"customerFormIncomes": [
+					{
+						"incomeAmt": 170000,
+						"incomeConfirmationCdExt": "Unconfirmed",
+						"incomeTypeCdExt": "10290001",
+						"customerFormEmployer": {
+							"customerFormEmployerId": "d08f68c7-b8cc-4bad-933c-5346df2c9868",
+							"customerFormId": "7c3947ff-2fba-459d-95da-ac8a65c489d7",
+							"taxNumber": "2434000335",
+							"employerName": "АО \"ПОЛЮС КРАСНОЯРСК\"",
+							"incomeTypeCdExt": "10290001",
+							"employmentTypeCdExt": "11670002",
+							"incomeTransactionsFlg": true
+						}
+					}
+				],
+				"scoreResults": [
+					{
+						"main": {
+							"connectorDataDetails": [
+								{
+									"dataSource": "ECS",
+									"errorCdExt": "0",
+									"connectorCode": "3",
+									"subrequestCode": "1234577015"
+								}
+							]
+						},
+						"scores": [
+							{
+								"scoreModelId": "39",
+								"scoreValue": "0",
+								"scoreValNum": 0,
+								"scoreSourceCdExt": "10580002"
+							}
+						]
+					},
+					{
+						"main": {
+							"connectorDataDetails": [
+								{
+									"dataSource": "BEELINE",
+									"errorCdExt": "0",
+									"connectorCode": "45",
+									"subrequestCode": "108"
+								}
+							]
+						},
+						"scores": [
+							{
+								"scoreModelId": "LIFETIME_BIN",
+								"scoreValue": ">9",
+								"scoreSourceCdExt": "10580006"
+							},
+							{
+								"scoreModelId": "UNI_V4",
+								"scoreValue": "1.030523056164384",
+								"scoreValNum": 1.030523056164384,
+								"scoreSourceCdExt": "10580006"
+							}
+						]
+					},
+					{
+						"main": {
+							"connectorDataDetails": [
+								{
+									"dataSource": "MEGAFON",
+									"errorCdExt": "0",
+									"connectorCode": "41",
+									"subrequestCode": "6"
+								}
+							]
+						},
+						"scores": [
+							{
+								"scoreModelId": "1F_AFS_FEATURES_6",
+								"scoreValue": "1.0",
+								"scoreValNum": 1,
+								"scoreSourceCdExt": "10580009",
+								"scoreStatusCdExt": "10570001"
+							},
+							{
+								"scoreModelId": "1F_AFS_FEATURES_5",
+								"scoreValue": "1.0",
+								"scoreValNum": 1,
+								"scoreSourceCdExt": "10580009",
+								"scoreStatusCdExt": "10570001"
+							},
+							{
+								"scoreModelId": "1F_AFS_FEATURES_4",
+								"scoreValue": "0.0",
+								"scoreValNum": 0,
+								"scoreSourceCdExt": "10580009",
+								"scoreStatusCdExt": "10570001"
+							},
+							{
+								"scoreModelId": "1F_AFS_FEATURES_3",
+								"scoreValue": "0.0",
+								"scoreValNum": 0,
+								"scoreSourceCdExt": "10580009",
+								"scoreStatusCdExt": "10570001"
+							},
+							{
+								"scoreModelId": "1F_AFS_FEATURES_2",
+								"scoreValue": "0.0",
+								"scoreValNum": 0,
+								"scoreSourceCdExt": "10580009",
+								"scoreStatusCdExt": "10570001"
+							},
+							{
+								"scoreModelId": "1F_AFS_FEATURES_1",
+								"scoreValue": "0.0",
+								"scoreValNum": 0,
+								"scoreSourceCdExt": "10580009",
+								"scoreStatusCdExt": "10570001"
+							}
+						]
+					}
+				],
+				"sparkResults": [
+					{
+						"sparkReports": [
+							{
+								"main": {
+									"connectorDataDetails": [
+										{
+											"dataSource": "SPARK",
+											"errorCdExt": "0",
+											"connectorCode": "22",
+											"subrequestCode": "83"
+										}
+									]
+								},
+								"sparkReportTypeCdExt": "11580007",
+								"checkDataTypeCdExt": "11460005",
+								"tin": "2434000335",
+								"resultType": "True",
+								"reportData": {
+									"riskFactors": [
+										{
+											"factorId": "20"
+										}
+									],
+									"includeInLists": [
+										{
+											"listNm": "Реестр операторов, осуществляющих обработку персональных данных",
+											"listId": "18"
+										},
+										{
+											"listNm": "Реестр свидетельств о постановке на спецучет в Пробирной Палате РФ",
+											"listId": "21"
+										},
+										{
+											"listNm": "Реестр аккредитованных органов по сертификации, испытательных лабораторий (центров), органов инспекции, провайдеров МСИ",
+											"listId": "22"
+										},
+										{
+											"listNm": "Перечень работодателей, деятельность которых отнесена к категории высокого риска",
+											"listId": "64"
+										}
+									],
+									"status": {
+										"statusCd": "24",
+										"groupId": "1"
+									},
+									"executionProceeding": {
+										"activeRubAmt": 0
+									},
+									"firstRegDt": "1993-05-26"
+								}
+							}
+						]
+					},
+					{
+						"sparkReports": [
+							{
+								"main": {
+									"connectorDataDetails": [
+										{
+											"dataSource": "SPARK",
+											"errorCdExt": "0",
+											"connectorCode": "22",
+											"subrequestCode": "71"
+										}
+									]
+								},
+								"sparkReportTypeCdExt": "11580002",
+								"checkDataTypeCdExt": "11460005",
+								"tin": "2434000335",
+								"resultType": "True",
+								"reportData": {
+									"riskFactors": [
+										{
+											"factorId": "20"
+										}
+									],
+									"status": {
+										"statusCd": "24",
+										"groupId": "1"
+									}
+								}
+							}
+						]
+					},
+					{
+						"sparkReports": [
+							{
+								"main": {
+									"connectorDataDetails": [
+										{
+											"dataSource": "SPARK",
+											"errorCdExt": "0",
+											"connectorCode": "22",
+											"subrequestCode": "1"
+										}
+									]
+								},
+								"sparkReportTypeCdExt": "11580006",
+								"checkDataTypeCdExt": "11460005",
+								"tin": "2434000335",
+								"resultType": "True",
+								"reportData": {
+									"generalInfo": {
+										"fullNmRus": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ПОЛЮС КРАСНОЯРСК\"",
+										"shortNmRus": "АО \"ПОЛЮС КРАСНОЯРСК\"",
+										"status": {
+											"statusCd": "24",
+											"groupId": "1"
+										},
+										"addresses": [
+											{
+												"addressTypeCdExt": "10150011",
+												"postalCd": "663282",
+												"address": "Красноярский кр., Северо-Енисейский район, пос. Северо-Енисейский, ул. Белинского, д. 2Б",
+												"regionNm": "Красноярский кр.",
+												"provinceNm": "Северо-Енисейский район",
+												"cityNm": "пос. Северо-Енисейский",
+												"streetNm": "ул. Белинского",
+												"houseType": "д.",
+												"houseNum": "2Б",
+												"geoLon": "93,01921",
+												"geoLat": "60,374411",
+												"fiasId": "3187c5cf-eb71-4b81-8963-dd7eec52a3ff",
+												"fiasFlg": true,
+												"fiasAddressCd": "240350000010000000300000000",
+												"fiasRegionCd": "24",
+												"fiasProvinceCd": "035",
+												"fiasCityCd": "000",
+												"fiasTownCd": "001",
+												"fiasPlanCd": "0000",
+												"fiasStreetCd": "0003",
+												"actualDt": "2023-02-06",
+												"inputDt": "2016-03-04"
+											}
+										]
+									},
+									"registrData": {
+										"okvedList": [
+											{
+												"okvedCd": "07.29.41",
+												"okvedMainFlg": true
+											},
+											{
+												"okvedCd": "02.20"
+											},
+											{
+												"okvedCd": "02.40.2"
+											},
+											{
+												"okvedCd": "05.10.11"
+											},
+											{
+												"okvedCd": "05.10.12"
+											},
+											{
+												"okvedCd": "05.10.13"
+											},
+											{
+												"okvedCd": "08.11"
+											},
+											{
+												"okvedCd": "08.11.2"
+											},
+											{
+												"okvedCd": "08.12"
+											},
+											{
+												"okvedCd": "16.23.1"
+											},
+											{
+												"okvedCd": "23.52.1"
+											},
+											{
+												"okvedCd": "25.29"
+											},
+											{
+												"okvedCd": "25.91"
+											},
+											{
+												"okvedCd": "28.22.9"
+											},
+											{
+												"okvedCd": "28.29"
+											},
+											{
+												"okvedCd": "33.12"
+											},
+											{
+												"okvedCd": "35.11.1"
+											},
+											{
+												"okvedCd": "35.12"
+											},
+											{
+												"okvedCd": "35.13"
+											},
+											{
+												"okvedCd": "42.11"
+											},
+											{
+												"okvedCd": "42.12"
+											},
+											{
+												"okvedCd": "42.91.1"
+											},
+											{
+												"okvedCd": "42.91.2"
+											},
+											{
+												"okvedCd": "43.2"
+											},
+											{
+												"okvedCd": "43.3"
+											},
+											{
+												"okvedCd": "43.91"
+											},
+											{
+												"okvedCd": "43.99"
+											},
+											{
+												"okvedCd": "46.12.22"
+											},
+											{
+												"okvedCd": "46.72.23"
+											},
+											{
+												"okvedCd": "46.90"
+											},
+											{
+												"okvedCd": "47.11.2"
+											},
+											{
+												"okvedCd": "47.73"
+											},
+											{
+												"okvedCd": "49.4"
+											},
+											{
+												"okvedCd": "50.40"
+											},
+											{
+												"okvedCd": "52.10"
+											},
+											{
+												"okvedCd": "52.10.21"
+											},
+											{
+												"okvedCd": "52.10.9"
+											},
+											{
+												"okvedCd": "52.22.2"
+											},
+											{
+												"okvedCd": "52.24"
+											},
+											{
+												"okvedCd": "52.29"
+											},
+											{
+												"okvedCd": "55.10"
+											},
+											{
+												"okvedCd": "55.90"
+											},
+											{
+												"okvedCd": "56.3"
+											},
+											{
+												"okvedCd": "62.01"
+											},
+											{
+												"okvedCd": "62.02"
+											},
+											{
+												"okvedCd": "62.09"
+											},
+											{
+												"okvedCd": "63.11"
+											},
+											{
+												"okvedCd": "63.11.1"
+											},
+											{
+												"okvedCd": "69"
+											},
+											{
+												"okvedCd": "71.12"
+											},
+											{
+												"okvedCd": "71.12.12"
+											},
+											{
+												"okvedCd": "71.12.3"
+											},
+											{
+												"okvedCd": "71.12.41"
+											},
+											{
+												"okvedCd": "71.12.43"
+											},
+											{
+												"okvedCd": "71.12.53"
+											},
+											{
+												"okvedCd": "71.12.55"
+											},
+											{
+												"okvedCd": "71.12.9"
+											},
+											{
+												"okvedCd": "71.20.9"
+											},
+											{
+												"okvedCd": "72.1"
+											},
+											{
+												"okvedCd": "78.10"
+											},
+											{
+												"okvedCd": "80.10"
+											},
+											{
+												"okvedCd": "80.20"
+											},
+											{
+												"okvedCd": "80.30"
+											},
+											{
+												"okvedCd": "84.11.4"
+											},
+											{
+												"okvedCd": "84.25.9"
+											},
+											{
+												"okvedCd": "85.30"
+											},
+											{
+												"okvedCd": "85.42.9"
+											},
+											{
+												"okvedCd": "86.10"
+											},
+											{
+												"okvedCd": "95.11"
+											}
+										],
+										"okfs": {
+											"okfsCd": "16"
+										},
+										"okopf": {
+											"okopfCd": "67",
+											"okopfNewCd": "12267"
+										},
+										"firstRegDt": "1993-05-26"
+									}
+								}
+							}
+						]
+					}
+				],
+				"fpsResults": [
+					{
+						"main": {
+							"connectorDataDetails": [
+								{
+									"dataSource": "EQUIFAX_FPS",
+									"errorCdExt": "0",
+									"connectorCode": "20",
+									"subrequestCode": "1"
+								}
+							]
+						},
+						"fpsOutputVector": {
+							"mainScoreValue": "207",
+							"mainRules": [
+								{
+									"fpsMainRuleCd": "7.101",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.100",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.99",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.98",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.97",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.88",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.87",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.20",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.19",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.18",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.17",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.16",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.15",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.14",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.13",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.12",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.11",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.10",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.9",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.8",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.7",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.6",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.5",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.4",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.3",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.2",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "7.1",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.117",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.116",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.115",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.109",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.108",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.107",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.106",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.105",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.104",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.103",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.102",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.101",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.50",
+									"fpsMainRuleEntryCnt": "0.1233"
+								},
+								{
+									"fpsMainRuleCd": "2.44",
+									"fpsMainRuleEntryCnt": "0.4710"
+								},
+								{
+									"fpsMainRuleCd": "2.42",
+									"fpsMainRuleEntryCnt": "0.3699"
+								},
+								{
+									"fpsMainRuleCd": "2.41",
+									"fpsMainRuleEntryCnt": "0.0359"
+								},
+								{
+									"fpsMainRuleCd": "2.38",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.37",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.36",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.35",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.34",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.33",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.32",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.31",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.30",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.29",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.28",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.27",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.26",
+									"fpsMainRuleEntryCnt": "1"
+								},
+								{
+									"fpsMainRuleCd": "2.25",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.24",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.23",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.22",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.21",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.20",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.19",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.18",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.17",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.16",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.15",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.14",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.13",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.12",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "2.11",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.42",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.41",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.21",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.20",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.19",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.18",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.17",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.16",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.15",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.14",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.13",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.12",
+									"fpsMainRuleEntryCnt": "0"
+								},
+								{
+									"fpsMainRuleCd": "1.11",
+									"fpsMainRuleEntryCnt": "0"
+								}
+							]
+						}
+					}
+				],
+				"customerAfsResults": [
+					{
+						"customerMdmIdActive": 1591917156,
+						"customerProspectId": 2627290811,
+						"rules": [
+							{
+								"ruleCd": "PHONE_042",
+								"ruleGroup": "GR0",
+								"ruleDescription": "Определен оператор связи по мобильному телефону Участника сделки из анкеты"
+							}
+						]
+					},
+					{
+						"customerMdmIdActive": 1591917156,
+						"customerProspectId": 2627290811,
+						"rules": [
+							{
+								"ruleCd": "PHONE_042",
+								"ruleGroup": "GR0",
+								"ruleDescription": "Определен оператор связи по мобильному телефону Участника сделки из анкеты"
+							}
+						]
+					}
+				],
+				"onlineModelData": [
+					{
+						"modelParameter": {
+							"modelApplyDttm": "2023-03-28T11:09:05.670062",
+							"modelCdExt": "10511041",
+							"modelVersion": "1"
+						},
+						"modelResult": {
+							"score": -3.1710661409,
+							"numVal02": 0.0402691915,
+							"numVal04": 107,
+							"numVal24": 0.0347
+						}
+					},
+					{
+						"modelParameter": {
+							"modelApplyDttm": "2023-03-28T11:09:05.493142",
+							"modelCdExt": "10511014",
+							"modelVersion": "1",
+							"modelCalculationTypeCd": 0
+						},
+						"modelResult": {
+							"score": 0.8086736294,
+							"scoreClb": 0.8436672226,
+							"numVal01": 28,
+							"numVal02": 90
+						}
+					},
+					{
+						"modelParameter": {
+							"modelApplyDttm": "2023-03-28T11:09:05.53145",
+							"modelCdExt": "10511013",
+							"modelVersion": "1;2"
+						},
+						"modelResult": {
+							"score": 557,
+							"numVal01": 1,
+							"numVal02": 0.0389106271,
+							"numVal03": 22,
+							"numVal04": 73,
+							"strVal01": "ME2"
+						}
+					},
+					{
+						"modelParameter": {
+							"modelApplyDttm": "2023-03-28T11:09:05.316767",
+							"modelCdExt": "10511012",
+							"modelVersion": "2"
+						},
+						"modelResult": {
+							"score": 909,
+							"scoreClb": 909,
+							"numVal01": 1,
+							"numVal02": 0.0009131919,
+							"numVal03": 0.000616081,
+							"numVal04": 0.0003571965,
+							"numVal05": 0.0002200086,
+							"numVal06": 0.0015744093,
+							"numVal07": 0.0010731693,
+							"numVal08": 0.0006223305,
+							"numVal09": 0.000383352,
+							"numVal10": 948,
+							"numVal11": 1002,
+							"numVal12": 1050,
+							"numVal13": 855,
+							"numVal14": 893,
+							"numVal15": 947,
+							"numVal16": 995,
+							"numVal17": 948,
+							"numVal18": 1002,
+							"numVal19": 1050,
+							"numVal20": 855,
+							"numVal21": 893,
+							"numVal22": 947,
+							"numVal23": 995,
+							"numVal24": 875,
+							"numVal25": 0.0012868355,
+							"strVal01": "MA3",
+							"strVal02": "MA2",
+							"strVal03": "MA1",
+							"strVal04": "MA1",
+							"strVal05": "MB2",
+							"strVal06": "MB1",
+							"strVal07": "MA2",
+							"strVal08": "MA1",
+							"strVal09": "MB1"
+						}
+					},
+					{
+						"modelParameter": {
+							"modelApplyDttm": "2023-03-28T11:09:05.428439",
+							"modelCdExt": "10511010",
+							"modelVersion": "1"
+						},
+						"modelResult": {
+							"score": 987,
+							"scoreClb": 987,
+							"numVal01": 1,
+							"numVal02": 0.0004155962,
+							"strVal01": "MA1"
+						}
+					},
+					{
+						"modelParameter": {
+							"modelApplyDttm": "2023-03-28T11:08:44.205652",
+							"modelCdExt": "10511011",
+							"modelVersion": "1"
+						},
+						"modelResult": {
+							"score": 875,
+							"numVal01": 1,
+							"numVal02": 0.0012868355,
+							"numVal03": 0.0007692419,
+							"numVal04": 0.0003719159,
+							"numVal05": 0.000198879,
+							"numVal06": 0.0026589903,
+							"numVal07": 0.0015903645,
+							"numVal08": 0.0007692419,
+							"numVal09": 0.0004114219,
+							"numVal10": 926,
+							"numVal11": 998,
+							"numVal12": 1060,
+							"numVal13": 803,
+							"numVal14": 854,
+							"numVal15": 926,
+							"numVal16": 988,
+							"strVal01": "MB1",
+							"strVal02": "MA3",
+							"strVal03": "MA1",
+							"strVal04": "MA1",
+							"strVal05": "MB3",
+							"strVal06": "MB2",
+							"strVal07": "MA3",
+							"strVal08": "MA1"
+						}
+					}
+				],
+				"incomeAggregates": [
+					{
+						"szpIncomeAmt": 50000,
+						"szpRegistrationDt": "2018-12-25"
+					}
+				],
+				"customerSegmentCdExt": "10540005",
+				"ptis": [
+					{
+						"ptiTypeCdExt": "10450008",
+						"ptiVal": 0.55798,
+						"priorityFlg": false,
+						"calcDt": "2023-03-28",
+						"incomeAmt": 115803.3275,
+						"incomeConfirmationCdExt": "Confirmed",
+						"liabilityAmt": 64616.3028,
+						"liabilityMaxPayAmt": 64616.3028,
+						"isFinalPtiFlg": false,
+						"pti80PayAmt": 28026.3592
+					},
+					{
+						"ptiTypeCdExt": "10450006",
+						"ptiVal": 0.3801,
+						"priorityFlg": false,
+						"calcDt": "2023-03-28",
+						"incomeAmt": 170000,
+						"incomeConfirmationCdExt": "Unconfirmed",
+						"liabilityAmt": 64616.3028,
+						"liabilityMaxPayAmt": 64616.3028,
+						"isFinalPtiFlg": false,
+						"pti80PayAmt": 71383.6972
+					},
+					{
+						"ptiTypeCdExt": "10450003",
+						"ptiVal": 2.31741,
+						"priorityFlg": false,
+						"calcDt": "2023-03-28",
+						"incomeAmt": 27883,
+						"incomeConfirmationCdExt": "Unconfirmed",
+						"liabilityAmt": 64616.3028,
+						"liabilityMaxPayAmt": 64616.3028,
+						"isFinalPtiFlg": false,
+						"pti80PayAmt": -42309.9028
+					},
+					{
+						"ptiTypeCdExt": "10450002",
+						"ptiVal": 0.38439,
+						"priorityFlg": false,
+						"calcDt": "2023-03-28",
+						"incomeAmt": 168100,
+						"incomeConfirmationCdExt": "Unconfirmed",
+						"liabilityAmt": 64616.3028,
+						"liabilityMaxPayAmt": 64616.3028,
+						"isFinalPtiFlg": false,
+						"pti80PayAmt": 69863.6972
+					},
+					{
+						"ptiTypeCdExt": "10450001",
+						"ptiVal": 0.55798,
+						"priorityFlg": false,
+						"calcDt": "2023-03-28",
+						"incomeAmt": 115803.3275,
+						"incomeConfirmationCdExt": "Confirmed",
+						"liabilityAmt": 64616.3028,
+						"liabilityMaxPayAmt": 64616.3028,
+						"isFinalPtiFlg": false,
+						"pti80PayAmt": 28026.3592
+					}
+				],
+				"okbResults": [
+					{
+						"main": {
+							"connectorDataDetails": [
+								{
+									"dataSource": "EXPERIAN_FSSP",
+									"errorCdExt": "0",
+									"connectorCode": "87",
+									"subrequestCode": "0"
+								}
+							]
+						},
+						"customerFormId": "7c3947ff-2fba-459d-95da-ac8a65c489d7",
+						"loanRequestVersion": "028",
+						"okbResultDttm": "2023-03-28T11:09:10.980646",
+						"okbResultUnixDttm": 1679990950
+					}
+				],
+				"bkiCalculatedIncomeAmt": 168099.73875
+			}
+		],
+		"creditRequestAfsResults": [
+			{},
+			{}
+		],
+		"rateList": [
+			{
+				"effectiveInterestRtVtbVal": 14.71,
+				"liabilityTypeCdExt": "01"
+			},
+			{
+				"effectiveInterestRtVtbVal": 7.88,
+				"liabilityTypeCdExt": "06"
+			},
+			{
+				"effectiveInterestRtVtbVal": 19.1,
+				"liabilityTypeCdExt": "09"
+			}
+		],
+		"createChannelCdExt": "10620008",
+		"createChannelInfo": {
+			"initiatorNm": "А_ДЖИН_ПЛЮС"
+		},
+		"sendChannelInfo": {
+			"aggregatorNm": "11710001"
+		},
+		"creditHistoryBureauExtId": "01edcd6e-d6f1-17b4-887e-7ef7a7cc7a55-5"
+	},
+	"correctionCounterCheckFlg": true,
+	"correctionLimit": 1,
+	"correctionCounter": 0,
+	"controlRoute": {
+		"stageCdExt": "PTI_CHECK"
+	}
+}

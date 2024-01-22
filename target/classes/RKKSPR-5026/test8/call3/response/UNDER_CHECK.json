@@ -1,0 +1,31 @@
+{
+	"decisionResult": {
+		"participants": [
+			{
+				"customerExtId": "4c4d7f674949443a96a63fdc7cc4ad77",
+				"trustData": [
+					{
+						"trustCodes": [
+							{
+								"trustCd": {
+									"matchType": "equals",
+									"value": "20.12"
+								},
+								"trustDictCdExt": {
+									"matchType": "equals",
+									"value": "10950118"
+								}
+							}
+						]
+					}
+				],
+				"kbSumTotal": {
+					"k2": {
+						"matchType": "equals",
+						"value": -60
+					}
+				}
+			}
+		]
+	}
+}

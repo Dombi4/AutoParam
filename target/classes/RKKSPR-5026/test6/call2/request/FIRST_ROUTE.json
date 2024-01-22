@@ -1,0 +1,237 @@
+{
+	"callCdExt": 10600003,
+	"stageCdExt": "FIRST_ROUTE",
+	"loanRequestVersion": "032",
+	"loanRequest": {
+		"callCdExt": 10600003,
+		"loanRequestExtId": "[customerRequestExtId]",
+		"loanRequestId": "[loanRequestId]",
+		"customerRequestExtId": "[customerRequestExtId]",
+		"extCreateDttm": "2023-03-28T10:45:11.252134",
+		"channelCdExt": "10620007",
+		"creditParameters": [
+			{
+				"productCdExt": "10410032",
+				"creditProgramCdExt": "07",
+				"requestedSum": 2140000,
+				"currencyCdExt": "10110118",
+				"loanTypeCdExt": "01",
+				"initialFeeAmt": 525000,
+				"newVehicleFlg": true,
+				"desiredVehicleValueAmt": 2625000,
+				"purchaseRegionCdExt": "10380036"
+			}
+		],
+		"employees": [
+			{
+				"lastNm": "Перехода",
+				"firstNm": "Марина",
+				"thirdNm": "Алексеевна",
+				"employeeLoginNm": "VTB70177633",
+				"employeeNum": "70177633",
+				"bisDepartmentCdExt": "10770001",
+				"bankDepartmentCdExt": "11711588",
+				"employeeRoleCdExt": "10630002"
+			},
+			{
+				"lastNm": "Анкетный",
+				"firstNm": "сервис",
+				"employeeLoginNm": "websitecar",
+				"employeeNum": "11111318",
+				"bisDepartmentCdExt": "10770001",
+				"bankDepartmentCdExt": "0000",
+				"employeeRoleCdExt": "10630001"
+			}
+		],
+		"participants": [
+			{
+				"customerFormId": "180fe825-98a5-40f8-8c47-40a106c04e61",
+				"customerProspectId": 2627288858,
+				"customerExtId": "4c4d7f674949443a96a63fdc7cc4ad77",
+				"customerTypeCdExt": "12070003",
+				"lastNm": "Фролова",
+				"firstNm": "Елена",
+				"thirdNm": "Анатольевна",
+				"birthDt": "1981-01-13",
+				"appCustomerRoleCdExt": "10060001",
+				"documents": [
+					{
+						"docTypeCdExt": "10300001",
+						"docIsActualFlg": true,
+						"docSeries": "2004",
+						"docNum": "391781",
+						"issuerNm": "ОВД ГОР. НОВОВОРОНЕЖА ВОРОНЕЖСКОЙ ОБЛАСТИ",
+						"issueDt": "2005-02-21",
+						"issuerDepartmentNum": "362-021"
+					}
+				],
+				"birthPlaceNm": "ПОС. НОВОВОРОНЕЖСКИЙ КАШИРСКОГО Р-НА ВОРОНЕЖСКОЙ ОБЛ.",
+				"genderCdExt": "10010002",
+				"corpCategoryCdExt": "10050008",
+				"mdmIdActiveVerifiedFlg": false,
+				"familyInfo": {
+					"maritalStatusCdExt": "10040004",
+					"childrenCnt": 1
+				},
+				"customerFlagsFront": [
+					{
+						"flagCdExt": "REPEAT_CLIENT_FLG",
+						"flagVal": 0
+					},
+					{
+						"flagCdExt": "SALARY_FLG",
+						"flagVal": 0
+					}
+				],
+				"addresses": [
+					{
+						"addressTypeCdExt": "10150001",
+						"fullAddress": "396073 Россия обл Воронежская г Нововоронеж ул Первомайская дом 7 кв 112",
+						"fullAddressNormalised": "396073 Россия обл Воронежская г Нововоронеж ул Первомайская дом 7 кв 112",
+						"postalCd": "396073",
+						"countryCdExt": "RUS",
+						"regionCdExt": "10380036",
+						"provinceTypeNm": "обл",
+						"provinceNm": "Воронежская",
+						"cityTypeNm": "г",
+						"cityNm": "Нововоронеж",
+						"streetTypeNm": "ул",
+						"streetNm": "Первомайская",
+						"houseNum": "7",
+						"flatNum": "112"
+					},
+					{
+						"addressTypeCdExt": "10150003",
+						"fullAddress": "396073 Россия обл Воронежская г Нововоронеж ул Первомайская дом 7 кв 112",
+						"fullAddressNormalised": "396073 Россия обл Воронежская г Нововоронеж ул Первомайская дом 7 кв 112",
+						"postalCd": "396073",
+						"countryCdExt": "RUS",
+						"regionCdExt": "10380036",
+						"provinceTypeNm": "обл",
+						"provinceNm": "Воронежская",
+						"cityTypeNm": "г",
+						"cityNm": "Нововоронеж",
+						"streetTypeNm": "ул",
+						"streetNm": "Первомайская",
+						"houseNum": "7",
+						"flatNum": "112"
+					}
+				],
+				"contacts": [
+					{
+						"contactTypeCdExt": "10020005",
+						"contactData": "9805409639"
+					}
+				],
+				"education": {
+					"educationCdExt": "10030008"
+				},
+				"consents": [
+					{
+						"consentTypeCdExt": "10170003",
+						"consentFlg": true,
+						"activeFromDt": "2023-03-28",
+						"activeToDt": "2023-09-28",
+						"consentObtainingMethodCdExt": "12290003"
+					},
+					{
+						"consentTypeCdExt": "10170002",
+						"consentFlg": true,
+						"activeFromDt": "2023-03-28",
+						"activeToDt": "2023-09-28",
+						"consentObtainingMethodCdExt": "12290003"
+					},
+					{
+						"consentTypeCdExt": "10170001",
+						"consentFlg": true,
+						"activeFromDt": "2023-03-28",
+						"activeToDt": "2023-09-28",
+						"consentObtainingMethodCdExt": "12290003"
+					}
+				],
+				"customerFormIncomes": [
+					{
+						"incomeAmt": 400000,
+						"incomeConfirmationCdExt": "Unconfirmed",
+						"incomeTypeCdExt": "10290010",
+						"customerFormEmployer": {
+							"customerFormEmployerId": "db75fd27-af52-45a4-8994-aae0c2393688",
+							"customerFormId": "180fe825-98a5-40f8-8c47-40a106c04e61",
+							"incomeTypeCdExt": "10290010",
+							"employmentTypeCdExt": "11670002",
+							"incomeTransactionsFlg": false
+						}
+					},
+					{
+						"incomeAmt": 180000,
+						"incomeConfirmationCdExt": "Unconfirmed",
+						"incomeTypeCdExt": "10290001",
+						"customerFormEmployer": {
+							"customerFormEmployerId": "5454d981-f991-445c-9a5c-c551bcca1726",
+							"customerFormId": "180fe825-98a5-40f8-8c47-40a106c04e61",
+							"taxNumber": "3651005156",
+							"employerName": "МАУК \"КУЛЬТУРНО-ДОСУГОВЫЙ ЦЕНТР\"",
+							"incomeTypeCdExt": "10290001",
+							"jobName": "Заведующая",
+							"jobCategoryCdExt": "10080005",
+							"employmentTypeCdExt": "11670002",
+							"workExperienceCurrentCdExt": "11400004",
+							"incomeTransactionsFlg": false,
+							"addresses": [
+								{
+									"addressTypeCdExt": "10150009",
+									"fullAddressNormalised": "396070 Россия обл Воронежская г Нововоронеж пл Ленина дом 1",
+									"postalCd": "396070",
+									"countryCdExt": "RUS",
+									"regionCdExt": "10380036",
+									"provinceTypeNm": "обл",
+									"provinceNm": "Воронежская",
+									"cityTypeNm": "г",
+									"cityNm": "Нововоронеж",
+									"streetTypeNm": "пл",
+									"streetNm": "Ленина",
+									"houseNum": "1"
+								}
+							],
+							"contacts": [
+								{
+									"contactTypeCdExt": "10020022",
+									"contactData": "9204680960"
+								}
+							]
+						}
+					}
+				],
+				"cusFormCommonEmployeeInfo": {
+					"workExperienceTotalCdExt": "11390004"
+				},
+				"customerSegmentCdExt": "10540002"
+			}
+		],
+		"rateList": [
+			{
+				"effectiveInterestRtVtbVal": 14.71,
+				"liabilityTypeCdExt": "01"
+			},
+			{
+				"effectiveInterestRtVtbVal": 7.88,
+				"liabilityTypeCdExt": "06"
+			},
+			{
+				"effectiveInterestRtVtbVal": 19.1,
+				"liabilityTypeCdExt": "09"
+			}
+		],
+		"createChannelCdExt": "10620008",
+		"createChannelInfo": {
+			"initiatorNm": "А_ВИРАЖ"
+		},
+		"sendChannelInfo": {
+			"aggregatorNm": "005182"
+		},
+		"creditHistoryBureauExtId": "01edcd5f-5804-108c-93af-3e670919bfe4-5"
+	},
+	"correctionCounterCheckFlg": true,
+	"correctionLimit": 1,
+	"correctionCounter": 0
+}

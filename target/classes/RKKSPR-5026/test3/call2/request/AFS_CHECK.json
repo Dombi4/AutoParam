@@ -1,0 +1,1281 @@
+{
+  "callCdExt": 10600003,
+  "stageCdExt": "AFS_CHECK",
+  "loanRequestVersion": "032",
+  "loanRequest": {
+    "callCdExt": 10600003,
+    "loanRequestExtId": "[customerRequestExtId]",
+    "loanRequestId": "[loanRequestId]",
+    "customerRequestExtId": "[customerRequestExtId]",
+    "extCreateDttm": "2023-03-28T11:08:34.098307",
+    "channelCdExt": "10620009",
+    "creditParameters": [
+      {
+        "productCdExt": "10410068",
+        "creditProgramCdExt": "69",
+        "requestedSum": 600000,
+        "currencyCdExt": "10110118",
+        "loanTypeCdExt": "01",
+        "initialFeeAmt": 0,
+        "purchaseRegionCdExt": "10380019"
+      }
+    ],
+    "employees": [
+      {
+        "lastNm": "Маркин",
+        "firstNm": "Иван",
+        "thirdNm": "Анатольевич",
+        "employeeLoginNm": "KRSNMARKIN.IA",
+        "employeeNum": "70048242",
+        "bisDepartmentCdExt": "10770005",
+        "bankDepartmentCdExt": "3240",
+        "employeeRoleCdExt": "10630002"
+      },
+      {
+        "lastNm": "Анкетный",
+        "firstNm": "сервис",
+        "employeeLoginNm": "websitecar",
+        "employeeNum": "11111318",
+        "bisDepartmentCdExt": "10770001",
+        "bankDepartmentCdExt": "0000",
+        "employeeRoleCdExt": "10630001"
+      }
+    ],
+    "participants": [
+      {
+        "customerFormId": "7c3947ff-2fba-459d-95da-ac8a65c489d7",
+        "customerProspectId": 2627290811,
+        "customerMdmIdActive": 1591917156,
+        "customerExtId": "39412fd38266496aa1591c1e3a872e22",
+        "customerTypeCdExt": "12070003",
+        "lastNm": "Мищук",
+        "firstNm": "Леонид",
+        "thirdNm": "Николаевич",
+        "birthDt": "1988-11-01",
+        "appCustomerRoleCdExt": "10060001",
+        "documents": [
+          {
+            "docTypeCdExt": "10300001",
+            "docIsActualFlg": true,
+            "docSeries": "9509",
+            "docNum": "702126",
+            "issuerNm": "ТП УФМС России по Республике Хакасия в Орджоникидзевском районе",
+            "issueDt": "2009-06-25",
+            "issuerDepartmentNum": "190-012"
+          }
+        ],
+        "incomeTransactions": [
+          {
+            "incomeDt": "2022-06-30",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "incomeDt": "2022-04-30",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "incomeDt": "2023-01-31",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "incomeDt": "2023-02-28",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2022-03-31",
+            "incomeAmt": 196922.96,
+            "incomeEnrollmentTypeCdExt": "10210001",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "incomeDt": "2022-10-31",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "incomeDt": "2022-05-31",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "incomeDt": "2022-12-31",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "incomeDt": "2023-03-28",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "incomeDt": "2022-08-31",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "incomeDt": "2022-07-31",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "incomeDt": "2022-09-30",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2022-02-28",
+            "incomeAmt": 70190.31,
+            "incomeEnrollmentTypeCdExt": "10210001",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "incomeDt": "2022-11-30",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210001"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2022-06-30",
+            "incomeAmt": 76774.85,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2023-02-28",
+            "incomeAmt": 88775.98,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2022-05-31",
+            "incomeAmt": 55938.65,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2023-03-28",
+            "incomeAmt": 72909.13,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2022-07-31",
+            "incomeAmt": 255070.23,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2022-08-31",
+            "incomeAmt": 91649.93,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "incomeDt": "2022-03-31",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210002"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2022-04-30",
+            "incomeAmt": 169723.9,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2023-01-31",
+            "incomeAmt": 245396.09,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "incomeDt": "2022-11-30",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210002"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2022-10-31",
+            "incomeAmt": 68055.81,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "incomeDt": "2022-02-28",
+            "incomeAmt": 0,
+            "incomeEnrollmentTypeCdExt": "10210002"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2022-09-30",
+            "incomeAmt": 70525.93,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          },
+          {
+            "accountNum": "40817810738134000215",
+            "incomeDt": "2022-12-31",
+            "incomeAmt": 70805.6,
+            "incomeEnrollmentTypeCdExt": "10210002",
+            "sourceTaxNumber": "2434000335"
+          }
+        ],
+        "passiveAccounts": [
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "541715******0629",
+            "closeFactDt": "2015-12-01",
+            "currencyCdExt": "10110118",
+            "openDt": "2013-02-19",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "40817810401962853068~671773603",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "2018-05-23",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "30601810905050612214",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "2021-06-12",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "40817810582291238935",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "1900-01-01",
+            "balCurrentRubAmt": 74.87,
+            "balMonLastDayRubAmt": 74.87,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817810138134003605",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "2020-06-10",
+            "balCurrentRubAmt": 22938.54,
+            "balMonLastDayRubAmt": 10442.04,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "40817810204922325050~1334104550",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "2019-07-31",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350012",
+            "accountNum": "42301810200600115013",
+            "closeFactDt": "2013-04-27",
+            "currencyCdExt": "10110118",
+            "openDt": "2013-02-19",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350012",
+            "accountNum": "42301810500600115013",
+            "closeFactDt": "2017-04-01",
+            "currencyCdExt": "10110118",
+            "openDt": "2013-02-19",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817840238134000170",
+            "closeFactDt": "2021-09-28",
+            "currencyCdExt": "10110146",
+            "openDt": "2019-09-07",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817840238134000170",
+            "closeFactDt": "2021-01-20",
+            "currencyCdExt": "10110146",
+            "depositPeriodMonCnt": 0,
+            "openDt": "2019-09-07",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350002",
+            "accountNum": "40817810738134000215",
+            "closeFactDt": "2020-11-24",
+            "currencyCdExt": "10110118",
+            "depositPeriodMonCnt": 0,
+            "openDt": "2018-05-23",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350012",
+            "accountNum": "42301810500600115013",
+            "closeFactDt": "2017-04-01",
+            "currencyCdExt": "10110118",
+            "openDt": "2013-02-19",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "40817810305952565860~1491401980",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "2019-10-12",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "541715******2085",
+            "closeFactDt": "2016-09-01",
+            "currencyCdExt": "10110118",
+            "openDt": "2013-09-27",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "498629******7322",
+            "closeFactDt": "2069-07-31",
+            "currencyCdExt": "10110118",
+            "openDt": "2019-07-31",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817810400430220557",
+            "closeFactDt": "2019-11-27",
+            "currencyCdExt": "10110118",
+            "openDt": "2014-11-06",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817810138134003605",
+            "closeFactDt": "2020-12-13",
+            "currencyCdExt": "10110118",
+            "depositPeriodMonCnt": 0,
+            "openDt": "2020-06-10",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "30601826505050608382",
+            "closeFactDt": "2022-06-30",
+            "currencyCdExt": "10110048",
+            "openDt": "2021-06-12",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817810400430220557",
+            "closeFactDt": "2019-11-27",
+            "currencyCdExt": "10110118",
+            "openDt": "2014-11-06",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350002",
+            "accountNum": "40817810738134000215",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "2018-05-23",
+            "balCurrentRubAmt": 72754.75,
+            "balMonLastDayRubAmt": 17970.12,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "40817810980430205267",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "1900-01-01",
+            "balCurrentRubAmt": 19.81,
+            "balMonLastDayRubAmt": 19.81,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817840838134000169",
+            "closeFactDt": "2019-10-12",
+            "currencyCdExt": "10110146",
+            "depositPeriodMonCnt": 0,
+            "openDt": "2019-09-07",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350002",
+            "accountNum": "40817840238134000167",
+            "closeFactDt": "2019-09-07",
+            "currencyCdExt": "10110146",
+            "depositPeriodMonCnt": 0,
+            "openDt": "2019-09-07",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817840538134000168",
+            "closeFactDt": "2021-10-10",
+            "currencyCdExt": "10110146",
+            "openDt": "2019-09-07",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "40817810100000006002/00048000000070792365",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "1900-01-01",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "30601978105050609079",
+            "closeFactDt": "2022-06-30",
+            "currencyCdExt": "10110045",
+            "openDt": "2021-06-12",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "541715******4972",
+            "closeFactDt": "2019-08-01",
+            "currencyCdExt": "10110118",
+            "openDt": "2016-08-03",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350002",
+            "accountNum": "40817840938134000166",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110146",
+            "openDt": "2019-09-07",
+            "balCurrentRubAmt": 65.84693,
+            "balMonLastDayRubAmt": 65.84693,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817840538134000168",
+            "closeFactDt": "2021-01-20",
+            "currencyCdExt": "10110146",
+            "depositPeriodMonCnt": 0,
+            "openDt": "2019-09-07",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "40817810800000005002/00048000000103993366",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "1900-01-01",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "30601840805050612229",
+            "closeFactDt": "2022-06-30",
+            "currencyCdExt": "10110146",
+            "openDt": "2021-06-12",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350016",
+            "accountNum": "40817810220466010588",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110118",
+            "openDt": "2021-07-05",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "30601756705050608456",
+            "closeFactDt": "2022-06-30",
+            "currencyCdExt": "10110028",
+            "openDt": "2021-06-12",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817840238134000170",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110146",
+            "openDt": "2019-09-07",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350002",
+            "accountNum": "40817840938134000166",
+            "closeFactDt": "2020-12-13",
+            "currencyCdExt": "10110146",
+            "depositPeriodMonCnt": 0,
+            "openDt": "2019-09-07",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          },
+          {
+            "accountTypeCdExt": "10350001",
+            "accountNum": "40817840538134000168",
+            "closeFactDt": "5999-12-31",
+            "currencyCdExt": "10110146",
+            "openDt": "2019-09-07",
+            "balCurrentRubAmt": 0,
+            "balMonLastDayRubAmt": 0,
+            "balCurrentCurrencyAmt": 0,
+            "balMonLastDayCurrAmt": 0
+          }
+        ],
+        "birthPlaceNm": "город Талас Киргизской ССР",
+        "genderCdExt": "10010001",
+        "corpCategoryCdExt": "10050002",
+        "mdmIdActiveVerifiedFlg": false,
+        "familyInfo": {
+          "maritalStatusCdExt": "10040004",
+          "childrenCnt": 0
+        },
+        "customerFlagsFront": [
+          {
+            "flagCdExt": "REPEAT_CLIENT_FLG",
+            "flagVal": 1
+          },
+          {
+            "flagCdExt": "SALARY_FLG",
+            "flagVal": 1
+          }
+        ],
+        "addresses": [
+          {
+            "addressTypeCdExt": "10150003",
+            "fullAddress": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+            "fullAddressNormalised": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+            "postalCd": "655153",
+            "countryCdExt": "RUS",
+            "regionCdExt": "10380019",
+            "provinceTypeNm": "Респ",
+            "provinceNm": "Хакасия",
+            "cityTypeNm": "г",
+            "cityNm": "Черногорск",
+            "streetTypeNm": "ул",
+            "streetNm": "Ташебинская",
+            "houseNum": "38",
+            "incomeRegionAvgAmt": 27883
+          },
+          {
+            "addressTypeCdExt": "10150001",
+            "fullAddress": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+            "fullAddressNormalised": "655153 Россия Респ Хакасия г Черногорск ул Ташебинская дом 38",
+            "postalCd": "655153",
+            "countryCdExt": "RUS",
+            "regionCdExt": "10380019",
+            "provinceTypeNm": "Респ",
+            "provinceNm": "Хакасия",
+            "cityTypeNm": "г",
+            "cityNm": "Черногорск",
+            "streetTypeNm": "ул",
+            "streetNm": "Ташебинская",
+            "houseNum": "38",
+            "incomeRegionAvgAmt": 27883
+          }
+        ],
+        "contacts": [
+          {
+            "contactTypeCdExt": "10020005",
+            "contactData": "9233956577"
+          }
+        ],
+        "education": {
+          "educationCdExt": "10030009"
+        },
+        "employer": {
+          "emplTaxNum": "2434000335",
+          "emplTaxNumActualDt": "2023-03-10",
+          "jobCategoryCdExt": "10080005",
+          "emplEmploymentTypeCdExt": "10370002",
+          "workExperienceCurrentCdExt": "11400004",
+          "workExperienceCurrentCalcCdExt": "11400004",
+          "employerNm": "АО \"ПОЛЮС КРАСНОЯРСК\""
+        },
+        "stoplistResults": [
+          {
+            "responseDttm": "2023-03-28T11:08:46.263795",
+            "sourceSystemCdExt": "10280138",
+            "stoplistConclusions": [
+              {
+                "tin": "2434000335",
+                "checkDataTypeCdExt": "11460005"
+              },
+              {
+                "checkDataTypeCdExt": "11460003"
+              },
+              {
+                "checkDataTypeCdExt": "11460001"
+              }
+            ]
+          }
+        ],
+        "consents": [
+          {
+            "consentTypeCdExt": "10170003",
+            "consentFlg": true,
+            "activeFromDt": "2023-03-28",
+            "activeToDt": "2023-09-28",
+            "consentObtainingMethodCdExt": "12290003"
+          },
+          {
+            "consentTypeCdExt": "10170002",
+            "consentFlg": true,
+            "activeFromDt": "2023-03-28",
+            "activeToDt": "2023-09-28",
+            "consentObtainingMethodCdExt": "12290003"
+          },
+          {
+            "consentTypeCdExt": "10170001",
+            "consentFlg": true,
+            "activeFromDt": "2023-03-28",
+            "activeToDt": "2023-09-28",
+            "consentObtainingMethodCdExt": "12290003"
+          }
+        ],
+        "liabilities": [
+          {
+            "recordId": "c1079d34-e153-42e5-9da1-014f09f9343e",
+            "totalFlg": false,
+            "agreementMigrRootRk": "1321462249",
+            "agreementRk": "1861929780",
+            "agrCloseFactDt": "2020-06-12",
+            "agrClosePlanDt": "2023-12-12",
+            "agrOpenDt": "2016-05-12",
+            "agrTypeCdExt": "10250001",
+            "applyFlg": true,
+            "appRk": "1369209747",
+            "clAgrRoleCdExt": "10060001",
+            "collateralRepaymentFlg": false,
+            "creditProgramCdExt": "28",
+            "debtCurrAmt": 0,
+            "debtRubAmt": 0,
+            "delinqClose905YCnt": 0,
+            "delinqCurCurrAmt": 0,
+            "delinqCurDaysCnt": 0,
+            "delinqCurRubAmt": 0,
+            "effectiveInterestRateVal": 19.96,
+            "externalFlg": false,
+            "fullSaleFlg": false,
+            "initialLoanCurrAmt": 1350000,
+            "initialLoanRubAmt": 1350000,
+            "initialTermMonCnt": 91,
+            "interestRateVal": 19.9,
+            "intPreapprovedFlg": false,
+            "intRestructureFlg": false,
+            "intSecuredFlg": false,
+            "liabilityCurrencyCdExt": "10110118",
+            "liabilityRootSourceSysCdExt": "95013",
+            "liabilitySourceSysCdExt": "97053",
+            "liabilityUuid": "ad7b8b2a-9a9f-11e8-9e61-98be9466a758-b",
+            "limitCurrentCurrAmt": 0,
+            "limitCurrentRubAmt": 0,
+            "limitLastDayMonCurrAmt": 0,
+            "limitLastDayMonRubAmt": 0,
+            "loanAgreementNum": "639/3313-0001072",
+            "loanTypeCdExt": "09",
+            "monPaymentCurrCalcAmt": 0,
+            "monPaymentCurrFctAmt": 0,
+            "monPaymentRubCalcAmt": 0,
+            "monPaymentRubFctAmt": 0,
+            "productKindCdExt": "99",
+            "productSubCd": "Т2",
+            "statusCdExt": "10070002",
+            "liabilityBranchSourceSysCdExt": "10280069",
+            "paymentDiscipline": "11111111111111111111111111111111111111111111111110",
+            "monPaymentRubAnnuityAmt": 0,
+            "delinqClose1180DCnt": 0,
+            "debtPriCurrAmt": 0,
+            "debtPriRubAmt": 0,
+            "nonStandartFlg": false,
+            "collateralCostAmt": 0,
+            "productOperationalCd": "Т2"
+          },
+          {
+            "recordId": "192794c3-ae27-4464-83ec-311d2053d078",
+            "totalFlg": false,
+            "agreementMigrRootRk": "-1",
+            "agreementRk": "-1",
+            "agrCloseFactDt": "5999-12-31",
+            "agrClosePlanDt": "2025-06-30",
+            "agrOpenDt": "2020-06-10",
+            "agrTypeCdExt": "10250001",
+            "applyFlg": true,
+            "appRk": "4278230477",
+            "clAgrRoleCdExt": "10060001",
+            "collateralRepaymentFlg": false,
+            "creditProgramCdExt": "17",
+            "debtCurrAmt": 918862.96,
+            "debtRubAmt": 918862.96,
+            "delinqClose905YCnt": 0,
+            "delinqCurCurrAmt": 0,
+            "delinqCurDaysCnt": 0,
+            "delinqCurRubAmt": 0,
+            "effectiveInterestRateVal": 9.908,
+            "externalFlg": false,
+            "fullSaleFlg": false,
+            "initialLoanCurrAmt": 1799999.15,
+            "initialLoanRubAmt": 1799999.15,
+            "initialTermMonCnt": 61,
+            "interestRateVal": 8.9,
+            "intPreapprovedFlg": false,
+            "intRestructureFlg": false,
+            "intSecuredFlg": false,
+            "liabilityCurrencyCdExt": "10110118",
+            "liabilityRootSourceSysCdExt": "10289999",
+            "liabilitySourceSysCdExt": "99980",
+            "liabilityUuid": "b366451c-ab48-11ea-9e61-98be9466a758-e",
+            "limitCurrentCurrAmt": 0,
+            "limitCurrentRubAmt": 0,
+            "limitLastDayMonCurrAmt": 0,
+            "limitLastDayMonRubAmt": 0,
+            "loanAgreementNum": "625/0040-1204384",
+            "loanTypeCdExt": "09",
+            "monPaymentCurrCalcAmt": 37277.72,
+            "monPaymentCurrFctAmt": 0,
+            "monPaymentRubCalcAmt": 37277.72,
+            "monPaymentRubFctAmt": 0,
+            "paymentDatePlanDt": "2023-03-28",
+            "productKindCdExt": "99",
+            "productSubCd": "ПЩ",
+            "statusCdExt": "10070001",
+            "liabilityBranchSourceSysCdExt": "10280069",
+            "paymentDiscipline": "1111111111111111111111111111111110",
+            "monPaymentRubAnnuityAmt": 37686.68395,
+            "delinqClose1180DCnt": 0,
+            "debtPriCurrAmt": 918862.96,
+            "debtPriRubAmt": 918862.96,
+            "ifrsPd": 0.01883888,
+            "nonStandartFlg": false,
+            "collateralCostAmt": 0,
+            "productOperationalCd": "ПЩ"
+          },
+          {
+            "recordId": "8e51d6eb-5f02-46ba-8485-032174f1592a",
+            "totalFlg": false,
+            "agreementMigrRootRk": "1739805674",
+            "agreementRk": "1739805674",
+            "agrCloseFactDt": "5999-12-31",
+            "agrClosePlanDt": "2048-05-25",
+            "agrOpenDt": "2018-05-23",
+            "agrTypeCdExt": "10250001",
+            "applyFlg": true,
+            "appRk": "1739835724",
+            "clAgrRoleCdExt": "10060001",
+            "collateralRepaymentFlg": false,
+            "creditProgramCdExt": "18",
+            "debtCurrAmt": 0,
+            "debtRubAmt": 0,
+            "delinqClose905YCnt": 0,
+            "delinqCurCurrAmt": 0,
+            "delinqCurDaysCnt": 0,
+            "delinqCurRubAmt": 0,
+            "effectiveInterestRateVal": 0,
+            "externalFlg": false,
+            "fullSaleFlg": false,
+            "initialLoanCurrAmt": 0,
+            "initialLoanRubAmt": 0,
+            "initialTermMonCnt": 360,
+            "interestRateVal": 26,
+            "intPreapprovedFlg": false,
+            "intRestructureFlg": false,
+            "intSecuredFlg": false,
+            "liabilityCurrencyCdExt": "10110118",
+            "liabilityRootSourceSysCdExt": "97053",
+            "liabilitySourceSysCdExt": "97053",
+            "liabilityUuid": "5fa76392-5ed4-11e8-9e61-98be9466a758-c",
+            "limitCurrentCurrAmt": 0,
+            "limitCurrentRubAmt": 0,
+            "limitLastDayMonCurrAmt": 0,
+            "limitLastDayMonRubAmt": 0,
+            "loanAgreementNum": "633/0040-0819185",
+            "loanTypeCdExt": "07",
+            "monPaymentCurrCalcAmt": 0,
+            "monPaymentCurrFctAmt": 0,
+            "monPaymentRubCalcAmt": 0,
+            "monPaymentRubFctAmt": 0,
+            "productKindCdExt": "99",
+            "productSubCd": "24,КY,01008",
+            "statusCdExt": "10070001",
+            "liabilityBranchSourceSysCdExt": "10280069",
+            "paymentDiscipline": "1111111111111111111111111111111111111111111A11A111111A11110",
+            "amendments": [
+              {
+                "amendTypeCdExt": "10710001",
+                "requestReasonCdExt": "10720012",
+                "periodTypeCdExt": "10730001",
+                "planEndDt": "2020-06-19",
+                "reasonForTerminationCdExt": "10740001",
+                "startDt": "2020-04-20",
+                "factEndDt": "2020-06-19"
+              }
+            ],
+            "monPaymentRubAnnuityAmt": 0,
+            "delinqClose1180DCnt": 0,
+            "debtPriCurrAmt": 0,
+            "debtPriRubAmt": 0,
+            "nonStandartFlg": false,
+            "productOperationalCd": "КY"
+          },
+          {
+            "recordId": "ad541894-4883-4a1d-bb78-4a61bcdf0ab3",
+            "totalFlg": false,
+            "agreementMigrRootRk": "1341155596",
+            "agreementRk": "1341155596",
+            "agrCloseFactDt": "2019-11-19",
+            "agrClosePlanDt": "2046-11-07",
+            "agrOpenDt": "2016-11-07",
+            "agrTypeCdExt": "10250001",
+            "applyFlg": true,
+            "appRk": "1308060986",
+            "clAgrRoleCdExt": "10060001",
+            "collateralRepaymentFlg": false,
+            "creditProgramCdExt": "28",
+            "debtCurrAmt": 0,
+            "debtRubAmt": 0,
+            "delinqClose905YCnt": 0,
+            "delinqCurCurrAmt": 0,
+            "delinqCurDaysCnt": 0,
+            "delinqCurRubAmt": 0,
+            "externalFlg": false,
+            "fullSaleFlg": false,
+            "initialLoanCurrAmt": 0,
+            "initialLoanRubAmt": 0,
+            "initialTermMonCnt": 360,
+            "interestRateVal": 24.9,
+            "intPreapprovedFlg": false,
+            "intRestructureFlg": false,
+            "intSecuredFlg": false,
+            "liabilityCurrencyCdExt": "10110118",
+            "liabilityRootSourceSysCdExt": "95013",
+            "liabilitySourceSysCdExt": "95013",
+            "limitCurrentCurrAmt": 0,
+            "limitCurrentRubAmt": 0,
+            "limitLastDayMonCurrAmt": 0,
+            "limitLastDayMonRubAmt": 0,
+            "loanAgreementNum": "001-P-95239677",
+            "loanTypeCdExt": "07",
+            "monPaymentCurrCalcAmt": 0,
+            "monPaymentCurrFctAmt": 0,
+            "monPaymentRubCalcAmt": 0,
+            "monPaymentRubFctAmt": 0,
+            "productKindCdExt": "99",
+            "productSubCd": "CREDIT_CARD",
+            "statusCdExt": "10070002",
+            "liabilityBranchSourceSysCdExt": "95013",
+            "paymentDiscipline": "1111111111111111111111111111111111110",
+            "monPaymentRubAnnuityAmt": 0,
+            "delinqClose1180DCnt": 0,
+            "debtPriCurrAmt": 0,
+            "debtPriRubAmt": 0,
+            "nonStandartFlg": false,
+            "productOperationalCd": "876"
+          },
+          {
+            "recordId": "56919deb-1105-49a7-a538-02bb25a810da",
+            "totalFlg": false,
+            "agreementMigrRootRk": "7780179816",
+            "agreementRk": "7780179816",
+            "agrCloseFactDt": "5999-12-31",
+            "agrClosePlanDt": "2051-07-05",
+            "agrOpenDt": "2021-07-05",
+            "agrTypeCdExt": "10250001",
+            "applyFlg": true,
+            "appRk": "7779766108",
+            "clAgrRoleCdExt": "10060001",
+            "collateralRepaymentFlg": false,
+            "creditProgramCdExt": "18",
+            "debtCurrAmt": 163442.67,
+            "debtRubAmt": 163442.67,
+            "delinqClose905YCnt": 0,
+            "delinqCurCurrAmt": 0,
+            "delinqCurDaysCnt": 0,
+            "delinqCurRubAmt": 0,
+            "effectiveInterestRateVal": 23.613,
+            "externalFlg": false,
+            "fullSaleFlg": false,
+            "initialLoanCurrAmt": 394000,
+            "initialLoanRubAmt": 394000,
+            "initialTermMonCnt": 360,
+            "interestRateVal": 23.9,
+            "intPreapprovedFlg": false,
+            "intRestructureFlg": false,
+            "intSecuredFlg": false,
+            "liabilityCurrencyCdExt": "10110118",
+            "liabilityRootSourceSysCdExt": "10280026",
+            "liabilitySourceSysCdExt": "10280026",
+            "liabilityUuid": "e41f447b-dd63-11eb-ab3a-00109b34f338-8",
+            "limitCurrentCurrAmt": 394000,
+            "limitCurrentRubAmt": 394000,
+            "limitLastDayMonCurrAmt": 394000,
+            "limitLastDayMonRubAmt": 394000,
+            "loanAgreementNum": "KK-651071896544",
+            "loanTypeCdExt": "07",
+            "monPaymentCurrCalcAmt": 0,
+            "monPaymentCurrFctAmt": 10000,
+            "monPaymentRubCalcAmt": 0,
+            "monPaymentRubFctAmt": 10000,
+            "productKindCdExt": "99",
+            "productSubCd": "ЗАЕМЩИК",
+            "statusCdExt": "10070001",
+            "liabilityBranchSourceSysCdExt": "10280026",
+            "paymentDiscipline": "111111111111111111110",
+            "monPaymentRubAnnuityAmt": 0,
+            "delinqClose1180DCnt": 0,
+            "debtPriCurrAmt": 163442.67,
+            "debtPriRubAmt": 163442.67,
+            "ifrsPd": 0.0424,
+            "nonStandartFlg": false
+          },
+          {
+            "recordId": "dd0b3467-06d3-4ce1-889d-4bd8addf59b0",
+            "totalFlg": false,
+            "agreementMigrRootRk": "3244885924",
+            "agreementRk": "3244885924",
+            "agrCloseFactDt": "2020-06-24",
+            "agrClosePlanDt": "2049-10-12",
+            "agrOpenDt": "2019-10-12",
+            "agrTypeCdExt": "10250001",
+            "applyFlg": true,
+            "appRk": "3244883396",
+            "clAgrRoleCdExt": "10060001",
+            "collateralRepaymentFlg": false,
+            "creditProgramCdExt": "28",
+            "debtCurrAmt": 0,
+            "debtRubAmt": 0,
+            "delinqClose905YCnt": 0,
+            "delinqCurCurrAmt": 0,
+            "delinqCurDaysCnt": 0,
+            "delinqCurRubAmt": 0,
+            "effectiveInterestRateVal": 23.47,
+            "externalFlg": false,
+            "fullSaleFlg": false,
+            "initialLoanCurrAmt": 0,
+            "initialLoanRubAmt": 0,
+            "initialTermMonCnt": 360,
+            "interestRateVal": 24.9,
+            "intPreapprovedFlg": true,
+            "intRestructureFlg": false,
+            "intSecuredFlg": false,
+            "liabilityCurrencyCdExt": "10110118",
+            "liabilityRootSourceSysCdExt": "97053",
+            "liabilitySourceSysCdExt": "97053",
+            "liabilityUuid": "2a12e326-ed42-11e9-9e61-98be9466a758-7",
+            "limitCurrentCurrAmt": 0,
+            "limitCurrentRubAmt": 0,
+            "limitLastDayMonCurrAmt": 0,
+            "limitLastDayMonRubAmt": 0,
+            "loanAgreementNum": "633/0040-1147228",
+            "loanTypeCdExt": "07",
+            "monPaymentCurrCalcAmt": 0,
+            "monPaymentCurrFctAmt": 0,
+            "monPaymentRubCalcAmt": 0,
+            "monPaymentRubFctAmt": 0,
+            "productKindCdExt": "99",
+            "productSubCd": "24,КS,00227",
+            "statusCdExt": "10070002",
+            "liabilityBranchSourceSysCdExt": "10280069",
+            "paymentDiscipline": "111111110",
+            "amendments": [
+              {
+                "amendTypeCdExt": "10710001",
+                "requestReasonCdExt": "10720012",
+                "periodTypeCdExt": "10730001",
+                "planEndDt": "2020-06-19",
+                "reasonForTerminationCdExt": "10740001",
+                "startDt": "2020-04-20",
+                "factEndDt": "2020-06-19"
+              }
+            ],
+            "monPaymentRubAnnuityAmt": 0,
+            "delinqClose1180DCnt": 0,
+            "debtPriCurrAmt": 0,
+            "debtPriRubAmt": 0,
+            "nonStandartFlg": false,
+            "productOperationalCd": "КS"
+          },
+          {
+            "recordId": "e5ae51dd-3694-41d1-abdc-cc3ed74db8b6",
+            "totalFlg": false,
+            "agreementMigrRootRk": "7780181564",
+            "agreementRk": "7780181564",
+            "agrCloseFactDt": "2021-07-15",
+            "agrClosePlanDt": "2051-07-05",
+            "agrOpenDt": "2021-07-05",
+            "agrTypeCdExt": "10250001",
+            "applyFlg": true,
+            "appRk": "7779764792",
+            "clAgrRoleCdExt": "10060001",
+            "collateralRepaymentFlg": false,
+            "creditProgramCdExt": "28",
+            "debtCurrAmt": 0,
+            "debtRubAmt": 0,
+            "delinqClose905YCnt": 0,
+            "delinqCurCurrAmt": 0,
+            "delinqCurDaysCnt": 0,
+            "delinqCurRubAmt": 0,
+            "effectiveInterestRateVal": 23.613,
+            "externalFlg": false,
+            "fullSaleFlg": false,
+            "initialLoanCurrAmt": 0,
+            "initialLoanRubAmt": 0,
+            "initialTermMonCnt": 360,
+            "interestRateVal": 23.9,
+            "intPreapprovedFlg": false,
+            "intRestructureFlg": false,
+            "intSecuredFlg": false,
+            "liabilityCurrencyCdExt": "10110118",
+            "liabilityRootSourceSysCdExt": "10280026",
+            "liabilitySourceSysCdExt": "10280026",
+            "liabilityUuid": "255b96ce-dd5f-11eb-ab3a-00109b34f338-1",
+            "limitCurrentCurrAmt": 0,
+            "limitCurrentRubAmt": 0,
+            "limitLastDayMonCurrAmt": 0,
+            "limitLastDayMonRubAmt": 0,
+            "loanAgreementNum": "KK-651071894416",
+            "loanTypeCdExt": "07",
+            "monPaymentCurrCalcAmt": 0,
+            "monPaymentCurrFctAmt": 0,
+            "monPaymentRubCalcAmt": 0,
+            "monPaymentRubFctAmt": 0,
+            "productKindCdExt": "99",
+            "productSubCd": "ЗАЕМЩИК",
+            "statusCdExt": "10070002",
+            "liabilityBranchSourceSysCdExt": "10280026",
+            "paymentDiscipline": "10",
+            "monPaymentRubAnnuityAmt": 0,
+            "delinqClose1180DCnt": 0,
+            "debtPriCurrAmt": 0,
+            "debtPriRubAmt": 0,
+            "nonStandartFlg": false
+          }
+        ],
+        "customerFormIncomes": [
+          {
+            "incomeAmt": 170000,
+            "incomeConfirmationCdExt": "Unconfirmed",
+            "incomeTypeCdExt": "10290001",
+            "customerFormEmployer": {
+              "customerFormEmployerId": "d08f68c7-b8cc-4bad-933c-5346df2c9868",
+              "customerFormId": "7c3947ff-2fba-459d-95da-ac8a65c489d7",
+              "taxNumber": "2434000335",
+              "employerName": "АО \"ПОЛЮС КРАСНОЯРСК\"",
+              "incomeTypeCdExt": "10290001",
+              "employmentTypeCdExt": "11670002",
+              "incomeTransactionsFlg": true
+            }
+          }
+        ],
+        "customerAfsResults": [
+          {
+            "customerMdmIdActive": 1591917156,
+            "customerProspectId": 2627290811,
+            "rules": [
+              {
+                "ruleCd": "PHONE_042",
+                "ruleGroup": "GR0",
+                "ruleDescription": "Определен оператор связи по мобильному телефону Участника сделки из анкеты"
+              }
+            ]
+          }
+        ],
+        "onlineModelData": [
+          {
+            "modelParameter": {
+              "modelApplyDttm": "2023-03-28T11:08:44.205652",
+              "modelCdExt": "10511011",
+              "modelVersion": "1"
+            },
+            "modelResult": {
+              "score": 875,
+              "numVal01": 1,
+              "numVal02": 0.0012868355,
+              "numVal03": 0.0007692419,
+              "numVal04": 0.0003719159,
+              "numVal05": 0.000198879,
+              "numVal06": 0.0026589903,
+              "numVal07": 0.0015903645,
+              "numVal08": 0.0007692419,
+              "numVal09": 0.0004114219,
+              "numVal10": 926,
+              "numVal11": 998,
+              "numVal12": 1060,
+              "numVal13": 803,
+              "numVal14": 854,
+              "numVal15": 926,
+              "numVal16": 988,
+              "strVal01": "MB1",
+              "strVal02": "MA3",
+              "strVal03": "MA1",
+              "strVal04": "MA1",
+              "strVal05": "MB3",
+              "strVal06": "MB2",
+              "strVal07": "MA3",
+              "strVal08": "MA1"
+            }
+          }
+        ],
+        "incomeAggregates": [
+          {
+            "szpIncomeAmt": 50000,
+            "szpRegistrationDt": "2018-12-25"
+          }
+        ],
+        "customerSegmentCdExt": "10540005"
+      }
+    ],
+    "creditRequestAfsResults": [
+      {}
+    ],
+    "rateList": [
+      {
+        "effectiveInterestRtVtbVal": 14.71,
+        "liabilityTypeCdExt": "01"
+      },
+      {
+        "effectiveInterestRtVtbVal": 7.88,
+        "liabilityTypeCdExt": "06"
+      },
+      {
+        "effectiveInterestRtVtbVal": 19.1,
+        "liabilityTypeCdExt": "09"
+      }
+    ],
+    "createChannelCdExt": "10620008",
+    "createChannelInfo": {
+      "initiatorNm": "А_ДЖИН_ПЛЮС"
+    },
+    "sendChannelInfo": {
+      "aggregatorNm": "11710001"
+    },
+    "creditHistoryBureauExtId": "01edcd6e-d6f1-17b4-887e-7ef7a7cc7a55-5"
+  },
+  "correctionCounterCheckFlg": true,
+  "correctionLimit": 1,
+  "correctionCounter": 0,
+  "controlRoute": {
+    "stageCdExt": "BCS_CHECK_REACT",
+    "nextStageCdExt": "AFS_CHECK",
+    "externalSystems": [
+      {
+        "extSysCdExt": "AFS",
+        "subRequestStatusCdExt": "11280002"
+      }
+    ]
+  }
+}
