@@ -1,92 +1,83 @@
 package org.example;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class DirFiles extends SimpleFileVisitor<Path> {
     public static String USERDATE = "2023-10-10";
+
     @Override
     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException{
        if (file.toString().endsWith(".json") & file.getParent().endsWith("request")) {
           readWriteJson(file);
-           System.out.println(file.toAbsolutePath());
-           System.out.println(file.getParent());
+//           System.out.println(file.toAbsolutePath());
+//           System.out.println(file.getParent());
        }
         return FileVisitResult.CONTINUE;
     }
     public static void readWriteJson(Path file){
         System.out.println(file.toAbsolutePath());
         System.out.println(file.getParent());
-        String origFile = file.toAbsolutePath().toString();
+//        String origFile = file.toAbsolutePath().toString();
         Path tempFile = Paths.get("src/test/temp/temp");
         try {
-            BufferedReader br = new BufferedReader(new FileReader(file.toAbsolutePath().toString()));
-            BufferedWriter bw = new BufferedWriter(new FileWriter(tempFile.toAbsolutePath().toString()));
-            String orig;
-            String newoig;
-            String comma;
-            int n = 0;
-            int n1 = 0;
-            int n2 = 0;
-            int n3 = 0;
-            while ((orig = br.readLine()) != null) {
-                comma = orig.endsWith(",") ? "," : "";
-                if (n<1 & orig.contains("\"loanRequestExtId\": \"")) {
-                    int number = orig.indexOf(": \"");
-                    newoig = orig.replace(orig.substring(number+3), "[customerRequestExtId]\"" + comma);
-                    orig = newoig;
-                    n++;
-                }
-                if (n1<1 & orig.contains("\"loanRequestId\": \"")) {
-                    int number = orig.indexOf(": \"");
-                    newoig = orig.replace(orig.substring(number+3), "[loanRequestId]\"" + comma);
-                    orig = newoig;
-                    n1++;
-                }
-                if (n2<1 & orig.contains("\"customerRequestExtId\": \"")) {
-                    int number = orig.indexOf(": \"");
-                    newoig = orig.replace(orig.substring(number+3), "[customerRequestExtId]\"" + comma);
-                    orig = newoig;
-                    n2++;
-                }
-                if (n3<1 & orig.contains("\"customerRequestId\": \"")) {
-                    int number = orig.indexOf(": \"");
-                    newoig = orig.replace(orig.substring(number+3), "[customerRequestId]\"" + comma);
-                    orig = newoig;
-                    n3++;
-                }
-                if (orig.contains("-")) {
-                    int number = orig.indexOf(": \"");
-                    char c;
-                    char b;
-                    char a;
-                    if (number > 0) {
-                        int num = number + 7;
-                        try {
-                            c = orig.charAt(num);
-                            b = orig.charAt(num+3);
-                        } catch (StringIndexOutOfBoundsException e){
-                            c = ' ';
-                            b = ' ';
-                        }
+            String orig = new String(Files.readAllBytes(file), StandardCharsets.UTF_8);
 
-                        if (c == '-' & b == '-') {
-                            String substr = orig.substring(num - 4, num + 6);
-                            newoig = orig.replace(substr, "[today"+ date(substr, "year") + date(substr, "month") + date(substr, "day") +"]");
-                            //System.out.println(newoig);
-                            orig = newoig;
-                            //System.out.println(orig);
-                        }
-                    }
-                }
-                bw.write(orig + "\n");
+            Pattern compile;
+            Matcher matcher;
+            String group;
+            String ptrn;
+
+            ptrn = "\"loanRequestExtId\": \".*\"";
+            compile = Pattern.compile(ptrn);
+            matcher = compile.matcher(orig);
+            while (matcher.find()) {
+                group = matcher.group();
+                orig = orig.replace(group, "\"loanRequestExtId\": \"[customerRequestExtId]\"");
             }
-            br.close();
-            bw.close();
+
+            ptrn = "\"loanRequestId\": \".*\"";
+            compile = Pattern.compile(ptrn);
+            matcher = compile.matcher(orig);
+            while (matcher.find()) {
+                group = matcher.group();
+                orig = orig.replace(group, "\"loanRequestId\": \"[loanRequestId]\"");
+            }
+
+            ptrn = "\"customerRequestExtId\": \".*\"";
+            compile = Pattern.compile(ptrn);
+            matcher = compile.matcher(orig);
+            while (matcher.find()) {
+                group = matcher.group();
+                orig = orig.replace(group, "\"customerRequestExtId\": \"[customerRequestExtId]\"");
+            }
+
+            ptrn = "\"customerRequestId\": \".*\"";
+            compile = Pattern.compile(ptrn);
+            matcher = compile.matcher(orig);
+            while (matcher.find()) {
+                group = matcher.group();
+                orig = orig.replace(group, "\"customerRequestId\": \"[customerRequestId]\"");
+            }
+
+            String datePattern = "\\d{4}-\\d{2}-\\d{2}"; // "yyyy-MM-dd"
+            compile = Pattern.compile(datePattern);
+            matcher = compile.matcher(orig);
+
+            while (matcher.find()) {
+                String dateStr = matcher.group();
+                orig = orig.replace(dateStr, "[today" + date(dateStr) + "]");
+            }
+
+            Files.write(tempFile, orig.getBytes(StandardCharsets.UTF_8));
+
             try {
                 Files.copy(tempFile.toAbsolutePath(),
                         file.toAbsolutePath(),
@@ -98,34 +89,34 @@ public class DirFiles extends SimpleFileVisitor<Path> {
             e.printStackTrace();
         }
     }
-    public static String date(String dateOld, String hron) {
+
+    public static String date(String dateOld) {
         String manyYears = "1000";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDate startDate = LocalDate.parse(dateOld, formatter);
         LocalDate endDate = LocalDate.parse(USERDATE);
         Period period = Period.between(startDate, endDate);
-        switch (hron){
-            case "day":
-                /*if (period.getDays()==0)
-                    return "";*/
-                if (period.getDays() <0)
-                    return ("+"+ period.getDays()*(-1) + "d");
-                return ("-"+ period.getDays() + "d");
-            case "month":
-                if (period.getMonths()==0)
-                    return "";
-                if (period.getMonths() <0)
-                    return ("+"+ period.getMonths()*(-1) + "m");
-                return ("-"+ period.getMonths()+ "m");
-            case "year":
-                if (period.getYears()==0)
-                    return "";
-                if (period.getYears()<-1000)
-                    return ("+"+ manyYears + "y");
-                if (period.getYears() <0)
-                    return ("+"+ period.getYears()*(-1) + "y");
-                return ("-"+ period.getYears()+ "y");
-        }
-        return "NON";
+        String paramDate = "";
+
+        if (period.getYears()==0) {}
+        else if (period.getYears()<-1000)
+            paramDate += "+"+ manyYears + "y";
+        else if (period.getYears() < 0)
+            paramDate += "+"+ period.getYears()*(-1) + "y";
+        else
+            paramDate += "-"+ period.getYears()+ "y";
+
+        if (period.getMonths()==0) {}
+        else if (period.getMonths() <0)
+            paramDate += "+"+ period.getMonths()*(-1) + "m";
+        else
+            paramDate += "-"+ period.getMonths()+ "m";
+
+        if (period.getDays() <0)
+            paramDate += "+"+ period.getDays()*(-1) + "d";
+        else
+            paramDate += "-"+ period.getDays() + "d";
+
+        return paramDate;
     }
 }
