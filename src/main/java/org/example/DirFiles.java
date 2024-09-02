@@ -11,7 +11,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class DirFiles extends SimpleFileVisitor<Path> {
-    public static String USERDATE = "2023-10-10";
+    public static String USERDATE = "2024-05-29";
 
     @Override
     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException{
@@ -35,7 +35,7 @@ public class DirFiles extends SimpleFileVisitor<Path> {
             String group;
             String ptrn;
 
-            ptrn = "\"loanRequestExtId\": \".*\"";
+            ptrn = "\"loanRequestExtId\" ?: \".*\"";
             compile = Pattern.compile(ptrn);
             matcher = compile.matcher(orig);
             while (matcher.find()) {
@@ -43,7 +43,7 @@ public class DirFiles extends SimpleFileVisitor<Path> {
                 orig = orig.replace(group, "\"loanRequestExtId\": \"[customerRequestExtId]\"");
             }
 
-            ptrn = "\"loanRequestId\": \".*\"";
+            ptrn = "\"loanRequestId\" ?: \".*\"";
             compile = Pattern.compile(ptrn);
             matcher = compile.matcher(orig);
             while (matcher.find()) {
@@ -51,7 +51,7 @@ public class DirFiles extends SimpleFileVisitor<Path> {
                 orig = orig.replace(group, "\"loanRequestId\": \"[loanRequestId]\"");
             }
 
-            ptrn = "\"customerRequestExtId\": \".*\"";
+            ptrn = "\"customerRequestExtId\" ?: \".*\"";
             compile = Pattern.compile(ptrn);
             matcher = compile.matcher(orig);
             while (matcher.find()) {
@@ -59,7 +59,7 @@ public class DirFiles extends SimpleFileVisitor<Path> {
                 orig = orig.replace(group, "\"customerRequestExtId\": \"[customerRequestExtId]\"");
             }
 
-            ptrn = "\"customerRequestId\": \".*\"";
+            ptrn = "\"customerRequestId\" ?: \".*\"";
             compile = Pattern.compile(ptrn);
             matcher = compile.matcher(orig);
             while (matcher.find()) {
